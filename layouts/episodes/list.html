@@ -1,0 +1,109 @@
+<!-- Save this as: layouts/episodes/list.html -->
+{{ define "main" }}
+<div class="container">
+    <header>
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+            <div class="description">{{ .Content }}</div>
+        {{ end }}
+    </header>
+    
+    <!-- Search Box -->
+    <div class="episodes-search">
+        <input type="text" id="episode-search" placeholder="Search episodes..." />
+        <span class="search-count">Showing <span id="episode-count">{{ len .Pages }}</span> episodes</span>
+    </div>
+    
+    <!-- Episodes Table -->
+    <div class="episodes-table-container">
+        <table class="episodes-table" id="episodes-table">
+            <thead>
+                <tr>
+                    <th>Episode</th>
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>BTC Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range (.Pages.ByParam "episode").Reverse }}
+                <tr class="episode-row" data-search="{{ .Title | lower }} {{ .Params.description | lower }} {{ delimit .Params.tags " " | lower }}">
+                    <td class="episode-number">
+                        {{ if .Params.episode }}#{{ .Params.episode }}{{ end }}
+                    </td>
+                    <td class="episode-date">
+                        {{ .Date.Format "Jan 2, 2006" }}
+                    </td>
+                    <td class="episode-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </td>
+                    <td class="episode-description">
+                        {{ if .Params.description }}
+                            {{ .Params.description }}
+                        {{ else }}
+                            {{ .Summary | truncate 100 }}
+                        {{ end }}
+                    </td>
+                    <td class="episode-btc">
+                        {{ if .Params.btc_price_usd }}
+                            <div class="btc-usd">${{ .Params.btc_price_usd }}</div>
+                        {{ else if .Params.btc_price }}
+                            <div class="btc-usd">{{ .Params.btc_price }}</div>
+                        {{ end }}
+                        {{ if .Params.btc_price_eur }}
+                            <div class="btc-eur">€{{ .Params.btc_price_eur }}</div>
+                        {{ end }}
+                        {{ if not (or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur) }}
+                            —
+                        {{ end }}
+                    </td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- No results message -->
+    <div id="no-results" class="no-results" style="display: none;">
+        <p>No episodes found matching your search.</p>
+    </div>
+</div>
+
+<script>
+// Simple search functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('episode-search');
+    const table = document.getElementById('episodes-table');
+    const rows = table.querySelectorAll('.episode-row');
+    const countSpan = document.getElementById('episode-count');
+    const noResults = document.getElementById('no-results');
+    
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        let visibleCount = 0;
+        
+        rows.forEach(function(row) {
+            const searchData = row.getAttribute('data-search');
+            if (searchData.includes(searchTerm)) {
+                row.style.display = '';
+                visibleCount++;
+            } else {
+                row.style.display = 'none';  
+            }
+        });
+        
+        countSpan.textContent = visibleCount;
+        
+        // Show/hide no results message
+        if (visibleCount === 0 && searchTerm !== '') {
+            noResults.style.display = 'block';
+            table.style.display = 'none';
+        } else {
+            noResults.style.display = 'none';
+            table.style.display = 'table';
+        }
+    });
+});
+</script>
+{{ end }}

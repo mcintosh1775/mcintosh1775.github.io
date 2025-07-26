@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="container">
+    <article>
+        <header>
+            <h1>{{ .Title }}</h1>
+            {{ if .Date }}
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            {{ end }}
+            {{ if .Params.episode }}
+                <span class="episode-number">Episode {{ .Params.episode }}</span>
+            {{ end }}
+        </header>
+       
+        <!-- Auto-include Podhome player if podhome_id exists -->
+        {{ if .Params.podhome_id }}
+        <div class="episode-player">
+            <h2>Listen Now</h2>
+            {{ partial "podhome-player.html" . }}
+        </div>
+        {{ end }}
+ 
+        <div class="content">
+            {{ .Content }}
+        </div>
+        
+        {{ if .Params.tags }}
+            <div class="tags">
+                {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        {{ end }}
+        
+        <!-- Include episode footer for episodes only -->
+        {{ if .Params.episode }}
+            {{ partial "episode-footer.html" . }}
+        {{ end }}
+    </article>
+</div>
+
+<!-- Load Podhome script only on episode pages -->
+{{ if .Params.episode }}
+<script src="https://www.podhome.fm/api/player/widget.js"></script>
+{{ end }}
+{{ end }}

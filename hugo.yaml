@@ -1,0 +1,38 @@
+# Save this as: hugo.yaml
+
+baseURL: 'https://satoshis-plebs.com'
+languageCode: 'en-us'
+title: "Satoshi's Plebs Podcast"
+
+params:
+  description: "Bitcoin is one of the great paradigm shifts of the twenty-first century. Sound, stable money creates an opportunity for growth and innovation that is unparalleled."
+  author: "McIntosh"
+  
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 10
+    - name: "Episodes"
+      url: "/episodes/"
+      weight: 20
+    - name: "Pleb Log"
+      url: "/log/"
+      weight: 30
+    - name: "About"
+      url: "/about/"
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Pagination
+pagination:
+  pagerSize: 10
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories

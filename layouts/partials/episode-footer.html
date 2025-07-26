@@ -1,0 +1,27 @@
+<!-- layouts/partials/episode-footer.html -->
+<div class="episode-footer">
+    <hr>
+    
+    <p><strong>Podcasting 2.0 Apps available at:</strong> <a href="http://podcastapps.com/">http://podcastapps.com/</a><br>
+    <strong>Value4Value information:</strong> <a href="https://value4value.info/">https://value4value.info/</a></p>
+    
+    <h3>Contact</h3>
+    <ul>
+        <li><strong>McIntosh's Email:</strong> <a href="mailto:mcintosh@satoshis-plebs.com">mcintosh@satoshis-plebs.com</a></li>
+        <li><strong>Twitter:</strong> <a href="https://twitter.com/McIntoshFinTech">@McIntoshFinTech</a></li>
+        <li><strong>Mastodon:</strong> <a href="https://podcastindex.social/@mcintosh">@mcintosh@podcastindex.social</a></li>
+    </ul>
+    
+    {{ if .Params.music_credits }}
+    <h3>Music Credits</h3>
+    <ul>
+        {{ range .Params.music_credits }}
+        <li><strong>{{ .title }}</strong><br>
+        {{ if .link }}Link: <a href="{{ .link }}">{{ .link }}</a><br>{{ end }}
+        {{ if .license }}License: <a href="{{ .license }}">{{ .license }}</a>{{ end }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    
+    <p><strong>New Episodes Every Thrsday</strong><br></p>
+</div>

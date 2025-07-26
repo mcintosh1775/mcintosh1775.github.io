@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+    <header>
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+            <div class="description">{{ .Content }}</div>
+        {{ end }}
+    </header>
+    
+    <div class="posts">
+        {{ range .Pages }}
+            <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.episode }}
+                    <span class="episode-number">Episode {{ .Params.episode }}</span>
+                {{ end }}
+                {{ if .Params.description }}
+                    <p>{{ .Params.description }}</p>
+                {{ else }}
+                    <p>{{ .Summary }}</p>
+                {{ end }}
+            </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

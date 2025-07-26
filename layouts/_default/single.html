@@ -1,16 +1,44 @@
+<!-- Complete file: layouts/_default/single.html -->
 {{ define "main" }}
 <div class="container">
     <article>
         <header>
             <h1>{{ .Title }}</h1>
-            {{ if .Date }}
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ end }}
-            {{ if .Params.episode }}
-                <span class="episode-number">Episode {{ .Params.episode }}</span>
+            <div class="episode-meta">
+                {{ if .Date }}
+                    <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ end }}
+                {{ if .Params.episode }}
+                    <span class="episode-number">Episode {{ .Params.episode }}</span>
+                {{ end }}
+            </div>
+            
+            {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur .Params.block_height }}
+            <div class="bitcoin-data">
+                {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}
+                    <span class="btc-prices">
+                        BTC: 
+                        {{ if .Params.btc_price_usd }}${{ .Params.btc_price_usd }}{{ else if .Params.btc_price }}{{ .Params.btc_price }}{{ end }}
+                        {{ if and (.Params.btc_price_usd | or .Params.btc_price) .Params.btc_price_eur }} / {{ end }}
+                        {{ if .Params.btc_price_eur }}€{{ .Params.btc_price_eur }}{{ end }}
+                    </span>
+                {{ end }}
+                {{ if .Params.block_height }}
+                    {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}<span class="separator">|</span>{{ end }}
+                    <span class="block-height">Block: {{ .Params.block_height }}</span>
+                {{ end }}
+            </div>
             {{ end }}
         </header>
-       
+        
+        <!-- Optional Episode Description -->
+        {{ if .Params.description }}
+        <div class="episode-description">
+            <h3>Episode Summary</h3>
+            <p>{{ .Params.description }}</p>
+        </div>
+        {{ end }}
+        
         <!-- Auto-include Podhome player if podhome_id exists -->
         {{ if .Params.podhome_id }}
         <div class="episode-player">
@@ -18,7 +46,7 @@
             {{ partial "podhome-player.html" . }}
         </div>
         {{ end }}
- 
+        
         <div class="content">
             {{ .Content }}
         </div>
@@ -40,6 +68,6 @@
 
 <!-- Load Podhome script only on episode pages -->
 {{ if .Params.episode }}
-<script src="https://www.podhome.fm/api/player/widget.js"></script>
+<script src="https://cdn.podhome.fm/player.min.js"></script>
 {{ end }}
 {{ end }}

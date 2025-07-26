@@ -1,4 +1,3 @@
-<!-- Save this as: layouts/episodes/list.html -->
 {{ define "main" }}
 <div class="container">
     <header>
@@ -7,13 +6,13 @@
             <div class="description">{{ .Content }}</div>
         {{ end }}
     </header>
-    
+
     <!-- Search Box -->
     <div class="episodes-search">
         <input type="text" id="episode-search" placeholder="Search episodes..." />
         <span class="search-count">Showing <span id="episode-count">{{ len .Pages }}</span> episodes</span>
     </div>
-    
+
     <!-- Episodes Table -->
     <div class="episodes-table-container">
         <table class="episodes-table" id="episodes-table">
@@ -22,28 +21,20 @@
                     <th>Episode</th>
                     <th>Date</th>
                     <th>Title</th>
-                    <th>Description</th>
                     <th>BTC Price</th>
                 </tr>
             </thead>
             <tbody>
                 {{ range (.Pages.ByParam "episode").Reverse }}
-                <tr class="episode-row" data-search="{{ .Title | lower }} {{ .Params.description | lower }} {{ delimit .Params.tags " " | lower }}">
+                <tr class="episode-row" data-search="{{ .Title | lower }}">
                     <td class="episode-number">
-                        {{ if .Params.episode }}#{{ .Params.episode }}{{ end }}
+                        #{{ .Params.episode }}
                     </td>
                     <td class="episode-date">
                         {{ .Date.Format "Jan 2, 2006" }}
                     </td>
                     <td class="episode-title">
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    </td>
-                    <td class="episode-description">
-                        {{ if .Params.description }}
-                            {{ .Params.description }}
-                        {{ else }}
-                            {{ .Summary | truncate 100 }}
-                        {{ end }}
                     </td>
                     <td class="episode-btc">
                         {{ if .Params.btc_price_usd }}
@@ -63,7 +54,7 @@
             </tbody>
         </table>
     </div>
-    
+
     <!-- No results message -->
     <div id="no-results" class="no-results" style="display: none;">
         <p>No episodes found matching your search.</p>
@@ -78,23 +69,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const rows = table.querySelectorAll('.episode-row');
     const countSpan = document.getElementById('episode-count');
     const noResults = document.getElementById('no-results');
-    
+
     searchInput.addEventListener('input', function() {
         const searchTerm = this.value.toLowerCase();
         let visibleCount = 0;
-        
+
         rows.forEach(function(row) {
             const searchData = row.getAttribute('data-search');
-            if (searchData.includes(searchTerm)) {
+            if (searchData && searchData.includes(searchTerm)) {
                 row.style.display = '';
                 visibleCount++;
             } else {
-                row.style.display = 'none';  
+                row.style.display = 'none';
             }
         });
-        
+
         countSpan.textContent = visibleCount;
-        
+
         // Show/hide no results message
         if (visibleCount === 0 && searchTerm !== '') {
             noResults.style.display = 'block';

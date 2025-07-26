@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main>
+        <div class="container">
+            <article>
+                <header>
+                    <h1>{{ .Title }}</h1>
+                    <div class="episode-meta">
+                        {{ if .Date }}
+                            <time>{{ .Date.Format "January 2, 2006" }}</time>
+                        {{ end }}
+                        {{ if .Params.episode }}
+                            <span class="episode-number">Episode {{ .Params.episode }}</span>
+                        {{ end }}
+                    </div>
+                    
+                    {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur .Params.block_height }}
+                    <div class="bitcoin-data">
+                        {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}
+                            <span class="btc-prices">
+                                BTC: 
+                                {{ if .Params.btc_price_usd }}${{ .Params.btc_price_usd }}{{ else if .Params.btc_price }}{{ .Params.btc_price }}{{ end }}
+                                {{ if and (.Params.btc_price_usd | or .Params.btc_price) .Params.btc_price_eur }} / {{ end }}
+                                {{ if .Params.btc_price_eur }}€{{ .Params.btc_price_eur }}{{ end }}
+                            </span>
+                        {{ end }}
+                        {{ if .Params.block_height }}
+                            {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}<span class="separator">|</span>{{ end }}
+                            <span class="block-height">Block: {{ .Params.block_height }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </header>
+                
+                {{ if .Params.description }}
+                <div class="episode-description">
+                    <h3>Episode Summary</h3>
+                    <p>{{ .Params.description }}</p>
+                </div>
+                {{ end }}
+                
+                {{ if .Params.podhome_id }}
+                <div class="episode-player">
+                    <h2>Listen Now</h2>
+                    {{ partial "podhome-player.html" . }}
+                </div>
+                {{ end }}
+                
+                <div class="content">
+                    {{ .Content }}
+                </div>
+                
+                {{ if .Params.tags }}
+                    <div class="tags">
+                        {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                {{ end }}
+                
+                {{ if .Params.episode }}
+                    {{ partial "episode-footer.html" . }}
+                {{ end }}
+            </article>
+        </div>
+    </main>
+    
+    {{ partial "footer.html" . }}
+    
+    {{ if .Params.episode }}
+    <script src="https://cdn.podhome.fm/player.min.js"></script>
+    {{ end }}
+</body>
+</html>

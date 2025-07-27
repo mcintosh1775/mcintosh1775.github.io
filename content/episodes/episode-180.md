@@ -7,7 +7,6 @@ btc_price_usd: "64,190"
 block_height: "858,449"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
-  - title: "Link"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "License"
     link: "https://filmmusic.io/standard-license"

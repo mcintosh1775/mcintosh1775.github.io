@@ -6,7 +6,6 @@ podhome_id: "a46720b0-3d0e-471f-a0bd-de4e0ba71cbe"
 btc_price_usd: "42,811"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
-  - title: "Link"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "License"
     link: "https://filmmusic.io/standard-license"

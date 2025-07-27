@@ -8,7 +8,6 @@ btc_price_eur: "80,800"
 block_height: "889,569"
 music_credits:
   - title: "Daydreamer by Ainsley Costello"
-  - title: "Link"
     link: "https://wavlake.com/ainsley-costello"
 tags: ["bitcoin", "podcast"]
 ---

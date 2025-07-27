@@ -8,7 +8,6 @@ btc_price_eur: "82,800"
 block_height: "894,640"
 music_credits:
   - title: "Jump Right In by DJ Yo!"
-  - title: "Link"
     link: "https://wavlake.com/dj-yo-"
 tags: ["bitcoin", "podcast"]
 ---

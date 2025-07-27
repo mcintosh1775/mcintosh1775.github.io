@@ -1,0 +1,16 @@
+---
+title: "Episode 189"
+date: 2024-12-20
+episode: 189
+podhome_id: "3ca6f66b-dc17-4cf0-903b-88cf22f10a0b"
+btc_price_usd: "103,238"
+music_credits:
+  - title: "Protofunk by Kevin MacLeod"
+  - title: "Link"
+    link: "https://incompetech.filmmusic.io/song/4247-protofunk"
+  - title: "License"
+    link: "https://filmmusic.io/standard-license"
+tags: ["bitcoin", "podcast"]
+---
+
+Episode 189

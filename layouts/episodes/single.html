@@ -24,15 +24,15 @@
                     <div class="bitcoin-data">
                         {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}
                             <span class="btc-prices">
-                                BTC: 
+                                <strong>BTC:</strong> 
                                 {{ if .Params.btc_price_usd }}${{ .Params.btc_price_usd }}{{ else if .Params.btc_price }}{{ .Params.btc_price }}{{ end }}
                                 {{ if and (.Params.btc_price_usd | or .Params.btc_price) .Params.btc_price_eur }} / {{ end }}
                                 {{ if .Params.btc_price_eur }}€{{ .Params.btc_price_eur }}{{ end }}
                             </span>
                         {{ end }}
                         {{ if .Params.block_height }}
-                            {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}<span class="separator">|</span>{{ end }}
-                            <span class="block-height">Block: {{ .Params.block_height }}</span>
+                            {{ if or .Params.btc_price_usd .Params.btc_price .Params.btc_price_eur }}<span class="separator"> | </span>{{ end }}
+                            <span class="block-height"><strong>Block:</strong> {{ .Params.block_height }}</span>
                         {{ end }}
                     </div>
                     {{ end }}

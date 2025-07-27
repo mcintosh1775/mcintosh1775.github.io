@@ -2,43 +2,15 @@
 title: "Episode 212"
 date: 2025-06-06
 episode: 212
-description: "## 
-#### 
-# Episode 212"
-tags: ["bitcoin"]
+podhome_id: "9e15cb8c-4beb-4919-ba93-9834b4cc7b76"
+btc_price_usd: "105,500"
+btc_price_eur: "92,250"
+block_height: "899,805"
+music_credits:
+  - title: "Wait Destiny by Sara Jade"
+  - title: "Link"
+    link: "https://wavlake.com/sara-jade[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section"
+tags: ["bitcoin", "podcast"]
 ---
 
-## 
-#### 
-# Episode 212
-
-Free Range Bitcoin
-
-twitter                   ## **Bitcoin Price at Time of Recording**
-** **
-
-****June 4th, 2025: 105,500 USD | 92,250 EUR
-
-## **Block Height at Time of Recording**
-****
-
-899,805
-
-Podcasting 2.0 Apps available at [http://podcastapps.com/ ](http://newpodcastapps.com/) and Value4Value information page available here: [https://value4value.info/](https://value4value.info/)
-
-McIntosh can be reached by email at [mcintosh@satoshis-plebs.com ](mailto:mcintosh@satoshis-plebs.com)and on Twitter at [@McIntoshFinTech](https://x.com/McIntoshFinTech). His mastodon handle is @mcintosh@podcastindex.social and his [Nostr](https://njump.me/npub197swtr3ymz7aw72tu7eqspxjta7zwcwf23uw4fxyxe2r2eyrfa2sdpner3).  Kenshin can be reached on Twitter at [@k](https://x.com/kenshin_ninja)[enshin_ninja](https://x.com/kenshin_ninja) or on [Nostr](https://njump.me/npub10xxhztawwgtuapdej49q5jgfawu5p0f2j2tzuaxxww2hl546ct3sr7pcjl). Kenshin's email is [kenshin@satoshis-plebs.com.](mailto:kenshin@satoshis-plebs.com) You can also follow the Satoshi's Plebs podcast account on [Nostr](https://njump.me/npub1hkkcygtuz63jccf3ls63eqltrkztnx2n0kqtq2qgeqq6e52x9xyqpyfvlm). We are looking forward to hearing from you!
-
-### Music Credits
-
-Wait Destiny by Sara Jade
-
-Link: https://wavlake.com/sara-jade
-
-### New Episodes Weekly
-Every Friday
-
-### Want to Be a Guest?
-[Come Onto the Show](#)
-
-### Listen
-[Elegant Podcasts](#)  |  [Divi Corner](#)
+Episode 212

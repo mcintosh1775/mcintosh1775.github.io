@@ -28,7 +28,7 @@
                 {{ range (.Pages.ByParam "episode").Reverse }}
                 <tr class="episode-row" data-search="{{ .Title | lower }}">
                     <td class="episode-number">
-                        #{{ .Params.episode }}
+                        {{ .Params.episode }}
                     </td>
                     <td class="episode-date">
                         {{ .Date.Format "Jan 2, 2006" }}

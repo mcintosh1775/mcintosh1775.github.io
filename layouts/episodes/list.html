@@ -6,13 +6,20 @@
             <div class="description">{{ .Content }}</div>
         {{ end }}
     </header>
-
+    
     <!-- Search Box -->
     <div class="episodes-search">
         <input type="text" id="episode-search" placeholder="Search episodes..." />
         <span class="search-count">Showing <span id="episode-count">{{ len .Pages }}</span> episodes</span>
     </div>
-
+    
+    <!-- Pagination Controls -->
+    <div class="pagination-controls">
+        <button class="prev-page" disabled>&larr; Previous</button>
+        <span class="page-info">Page <span class="current-page">1</span> of <span class="total-pages">1</span></span>
+        <button class="next-page">Next &rarr;</button>
+    </div>
+    
     <!-- Episodes Table -->
     <div class="episodes-table-container">
         <table class="episodes-table" id="episodes-table">
@@ -22,6 +29,7 @@
                     <th>Date</th>
                     <th>Title</th>
                     <th>BTC Price</th>
+                    <th>Block Height</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,52 +57,165 @@
                             —
                         {{ end }}
                     </td>
+                    <td class="episode-block">
+                        {{ if .Params.block_height }}
+                            {{ .Params.block_height }}
+                        {{ else }}
+                            —
+                        {{ end }}
+                    </td>
                 </tr>
                 {{ end }}
             </tbody>
         </table>
     </div>
-
+    
+    <!-- Bottom Pagination Controls -->
+    <div class="pagination-controls">
+        <button class="prev-page" disabled>&larr; Previous</button>
+        <span class="page-info">Page <span class="current-page">1</span> of <span class="total-pages">1</span></span>
+        <button class="next-page">Next &rarr;</button>
+    </div>
+    
     <!-- No results message -->
     <div id="no-results" class="no-results" style="display: none;">
         <p>No episodes found matching your search.</p>
     </div>
 </div>
 
+<style>
+.pagination-controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination-controls button {
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#page-info {
+    margin: 0 20px;
+}
+
+.episode-row {
+    display: none;
+}
+
+.episode-row.visible {
+    display: table-row;
+}
+</style>
+
 <script>
-// Simple search functionality
+// Pagination and search functionality
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('episode-search');
     const table = document.getElementById('episodes-table');
-    const rows = table.querySelectorAll('.episode-row');
+    const rows = Array.from(table.querySelectorAll('.episode-row'));
     const countSpan = document.getElementById('episode-count');
     const noResults = document.getElementById('no-results');
-
-    searchInput.addEventListener('input', function() {
-        const searchTerm = this.value.toLowerCase();
-        let visibleCount = 0;
-
-        rows.forEach(function(row) {
-            const searchData = row.getAttribute('data-search');
-            if (searchData && searchData.includes(searchTerm)) {
-                row.style.display = '';
-                visibleCount++;
+    
+    // Pagination elements - now selecting by class since we have two sets
+    const prevButtons = document.querySelectorAll('.prev-page');
+    const nextButtons = document.querySelectorAll('.next-page');
+    const currentPageSpans = document.querySelectorAll('.current-page');
+    const totalPagesSpans = document.querySelectorAll('.total-pages');
+    
+    const rowsPerPage = 30;
+    let currentPage = 1;
+    let filteredRows = rows;
+    
+    function updatePagination() {
+        const totalRows = filteredRows.length;
+        const totalPages = Math.ceil(totalRows / rowsPerPage);
+        
+        // Update page info (both top and bottom)
+        totalPagesSpans.forEach(span => span.textContent = totalPages || 1);
+        currentPageSpans.forEach(span => span.textContent = currentPage);
+        
+        // Update button states (both top and bottom)
+        prevButtons.forEach(btn => btn.disabled = currentPage === 1);
+        nextButtons.forEach(btn => btn.disabled = currentPage >= totalPages);
+        
+        // Show/hide rows based on current page
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+        
+        rows.forEach(row => {
+            if (filteredRows.includes(row)) {
+                const index = filteredRows.indexOf(row);
+                if (index >= startIndex && index < endIndex) {
+                    row.classList.add('visible');
+                } else {
+                    row.classList.remove('visible');
+                }
             } else {
-                row.style.display = 'none';
+                row.classList.remove('visible');
             }
         });
-
-        countSpan.textContent = visibleCount;
-
+        
+        // Update count
+        countSpan.textContent = totalRows;
+        
         // Show/hide no results message
-        if (visibleCount === 0 && searchTerm !== '') {
+        if (totalRows === 0 && searchInput.value !== '') {
             noResults.style.display = 'block';
             table.style.display = 'none';
         } else {
             noResults.style.display = 'none';
             table.style.display = 'table';
         }
+    }
+    
+    function filterRows() {
+        const searchTerm = searchInput.value.toLowerCase();
+        
+        if (searchTerm === '') {
+            filteredRows = rows;
+        } else {
+            filteredRows = rows.filter(row => {
+                const searchData = row.getAttribute('data-search');
+                return searchData && searchData.includes(searchTerm);
+            });
+        }
+        
+        currentPage = 1; // Reset to first page on new search
+        updatePagination();
+    }
+    
+    // Event listeners
+    searchInput.addEventListener('input', filterRows);
+    
+    // Add listeners to all prev buttons
+    prevButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+            if (currentPage > 1) {
+                currentPage--;
+                updatePagination();
+            }
+        });
     });
+    
+    // Add listeners to all next buttons
+    nextButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                updatePagination();
+            }
+        });
+    });
+    
+    // Initial setup
+    updatePagination();
 });
 </script>
 {{ end }}

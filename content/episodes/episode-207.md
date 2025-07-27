@@ -1,5 +1,5 @@
 ---
-title: "Episode 207"
+title: "Should You Run Your Own Node?"
 date: 2025-05-02
 episode: 207
 podhome_id: "8625bf3c-8074-4770-9af8-b554cf28510b"
@@ -9,8 +9,6 @@ block_height: "894,640"
 music_credits:
   - title: "Jump Right In by DJ Yo!"
   - title: "Link"
-    link: "https://wavlake.com/dj-yo-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section"
+    link: "https://wavlake.com/dj-yo-"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 207

@@ -8,7 +8,6 @@ btc_price_eur: "100,127"
 block_height: "907,193"
 music_credits:
   - title: "Cherry on Top by Ainsley Costello"
-  - title: "Link"
     link: "https://ainsleycostello.com/"
 tags: ["bitcoin", "podcast"]
 ---

@@ -1,15 +1,13 @@
 ---
-title: "Episode 187"
+title: "BRICS and Bitcoin"
 date: 2024-12-06
 episode: 187
+podhome_id: "f5ef1b95-27cc-44eb-9dae-ecd5f0937146"
 btc_price_usd: "96,810"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
-  - title: "Link"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "License"
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 187

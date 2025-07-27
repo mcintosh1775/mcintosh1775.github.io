@@ -1,8 +1,8 @@
 ---
-title: "Episode 174"
+title: "Crash!"
 date: 2024-07-10
 episode: 174
-podhome_id: "71812bb6-7e30-4ebf-bf2b-92a15cfc076c"
+podhome_id: "8e495507-f72c-4c99-b2ea-fa658ffbc8c1"
 btc_price_usd: "55,849"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-L

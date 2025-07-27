@@ -1,7 +1,8 @@
 ---
-title: "Episode 171"
+title: "Last Half Focus" 
 date: 2024-06-11
 episode: 171
+podhome_id: "aed66473-2417-4403-a0ae-c8440c0038b7"
 btc_price_usd: "69,192"
 block_height: "847,135"
 music_credits:
@@ -11,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 171

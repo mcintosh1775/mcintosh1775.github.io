@@ -1,5 +1,5 @@
 ---
-title: "Episode 181"
+title: "Censorship and Privacy"
 date: 2024-09-09
 episode: 181
 podhome_id: "0fb7b0a1-110f-4ed6-9e5e-6cd75920d61e"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 181

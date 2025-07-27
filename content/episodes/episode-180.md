@@ -1,5 +1,5 @@
 ---
-title: "Episode 180"
+title: "Is Dave Ramsey Wrong?"
 date: 2024-08-26
 episode: 180
 podhome_id: "0399d09a-570a-466b-b375-5eb8cc44bba1"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 180

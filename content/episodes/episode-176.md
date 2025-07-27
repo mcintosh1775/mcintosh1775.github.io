@@ -1,5 +1,5 @@
 ---
-title: "Episode 176"
+title: "Two Roads"
 date: 2024-07-22
 episode: 176
 podhome_id: "459424b0-a682-4eaf-9076-7d54986cb97f"
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 176

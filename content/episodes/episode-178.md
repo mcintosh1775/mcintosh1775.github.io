@@ -1,5 +1,5 @@
 ---
-title: "Episode 178"
+title: "The Burning Down"
 date: 2024-08-05
 episode: 178
 podhome_id: "32956da0-24a0-4e59-ba1a-9a35528a1bab"
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 178

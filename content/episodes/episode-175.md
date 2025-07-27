@@ -1,5 +1,5 @@
 ---
-title: "Episode 175"
+title: "My Bitcoin Journey"
 date: 2024-07-15
 episode: 175
 podhome_id: "79f85650-55ea-4022-8642-e8a2a28c699a"
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 175

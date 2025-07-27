@@ -1,5 +1,5 @@
 ---
-title: "Episode 177"
+title: "Bitcoin Game Theory Playing Out?"
 date: 2024-07-29
 episode: 177
 podhome_id: "358ca21f-9a55-4c05-99fe-1f9a978d3c0f"
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 177

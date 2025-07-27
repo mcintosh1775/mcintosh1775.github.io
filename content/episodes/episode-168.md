@@ -1,9 +1,10 @@
 ---
-title: "What About Your Backups?"
-date: 2024-07-10
-episode: 173
-podhome_id: "71812bb6-7e30-4ebf-bf2b-92a15cfc076c"
-btc_price_usd: "62,673"
+title: "Privacy is a Must"
+date: 2024-04-20
+episode: 168
+podhome_id: "5dc10645-35df-44b8-af0f-c858914d6afb"
+btc_price_usd: "66,237"
+block_height: "844,213"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

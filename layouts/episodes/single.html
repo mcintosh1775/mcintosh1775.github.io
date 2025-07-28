@@ -38,13 +38,6 @@
                     {{ end }}
                 </header>
                 
-                {{ if .Params.description }}
-                <div class="episode-description">
-                    <h3>Episode Summary</h3>
-                    <p>{{ .Params.description }}</p>
-                </div>
-                {{ end }}
-                
                 {{ if .Params.podhome_id }}
                 <div class="episode-player">
                     <h2>Listen Now</h2>
@@ -52,9 +45,34 @@
                 </div>
                 {{ end }}
                 
-                <div class="content">
-                    {{ .Content }}
+                {{ if .Content }}
+                <div class="episode-content">
+                    <h2>Show Notes</h2>
+                    <div class="content">
+                        {{ .Content }}
+                    </div>
                 </div>
+                {{ end }}
+                
+                {{ if .Params.transcript }}
+                <div class="episode-transcript">
+                    <details>
+                        <summary><h2>Transcript</h2></summary>
+                        <div class="transcript-content">
+                            {{ .Params.transcript | markdownify }}
+                        </div>
+                    </details>
+                </div>
+                {{ end }}
+                
+                {{ if .Params.transcript }}
+                <div class="episode-transcript">
+                    <h2>Transcript</h2>
+                    <div class="transcript-content">
+                        {{ .Params.transcript | markdownify }}
+                    </div>
+                </div>
+                {{ end }}
                 
                 {{ if .Params.tags }}
                     <div class="tags">

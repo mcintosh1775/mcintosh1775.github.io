@@ -1,8 +1,8 @@
 ---
-title: "Episode 117"
-date: 2023-07-17
-episode: 117
-btc_price_usd: "30,237"
+title: "Episode 103"
+date: 2023-05-08
+episode: 103
+btc_price_usd: "28,446"
 music_credits:
   - title: "Rock Guitar Intro 07 by TaigaSoundProd"
     link: "https://filmmusic.io/song/8342-rock-guitar-intro-07"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Rules NOT RUlERS

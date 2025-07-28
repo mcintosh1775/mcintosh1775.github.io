@@ -4,9 +4,13 @@ date: 2024-11-15
 episode: 184
 podhome_id: "655433ac-59c9-4184-aa6c-acd0429552c3"
 btc_price_usd: "76,709"
+btc_price_eur: "70,850"
+block_height: "869,468"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
+  - title: "Ethernight by Kevin MacLeod"
+    link: "https://incompetech.filmmusic.io/song/7612-ethernight-club"
   - title: "License"
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]

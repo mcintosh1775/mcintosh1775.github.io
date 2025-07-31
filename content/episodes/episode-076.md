@@ -1,5 +1,5 @@
 ---
-title: "Episode 76"
+title: "Are Reversible Transactions a Good Thing?"
 date: 2022-10-07
 episode: 76
 btc_price_usd: "18,446"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Are Reversible Transactions a Good Thing?

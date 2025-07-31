@@ -1,5 +1,5 @@
 ---
-title: "Episode 47"
+title: "Please Help me I'm falling!"
 date: 2022-09-25
 episode: 47
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Please Help me I'm falling!

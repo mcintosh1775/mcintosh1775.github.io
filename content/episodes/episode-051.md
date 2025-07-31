@@ -1,5 +1,5 @@
 ---
-title: "Episode 51"
+title: "Vasil Hardfork Incoming!"
 date: 2022-09-21
 episode: 51
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Vasil Hardfork Incoming!

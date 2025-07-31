@@ -1,5 +1,5 @@
 ---
-title: "Episode 117"
+title: "Rules NOT RUlERS"
 date: 2023-07-17
 episode: 117
 btc_price_usd: "30,237"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Rules NOT RUlERS

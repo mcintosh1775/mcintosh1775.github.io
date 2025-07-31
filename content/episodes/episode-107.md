@@ -1,5 +1,5 @@
 ---
-title: "Episode 107"
+title: "Peer and Decentralized Exchanges"
 date: 2023-05-15
 episode: 107
 btc_price_usd: "788,723"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Peer and Decentralized Exchanges

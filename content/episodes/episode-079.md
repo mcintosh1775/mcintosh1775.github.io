@@ -1,5 +1,5 @@
 ---
-title: "Episode 79"
+title: "News, Notes and more Regulation Talk"
 date: 2022-10-31
 episode: 79
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-News, Notes and more Regulation Talk

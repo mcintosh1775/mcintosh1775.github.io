@@ -1,5 +1,5 @@
 ---
-title: "Episode 80"
+title: "Is Alameda Going to be Celsius 2.0?"
 date: 2022-11-07
 episode: 80
 btc_price_usd: "20,926"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Is Alameda Going to be Celsius 2.0?

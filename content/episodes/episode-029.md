@@ -1,5 +1,5 @@
 ---
-title: "Episode 29"
+title: "Catch the Moon? The Terra Luna Ecosystem and Algorithmic Stablecoins"
 date: 2022-09-27
 episode: 29
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Catch the Moon? The Terra Luna Ecosystem and Algorithmic Stablecoins

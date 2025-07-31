@@ -1,5 +1,5 @@
 ---
-title: "Episode 128"
+title: "A Talk with Jimmy Song about Fiat Ruins EverythinG"
 date: 2023-09-11
 episode: 128
 btc_price_usd: "25,894"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-A Talk with Jimmy Song about Fiat Ruins EverythinG

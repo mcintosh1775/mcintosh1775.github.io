@@ -1,5 +1,5 @@
 ---
-title: "Episode 115"
+title: "The great injustice"
 date: 2023-07-18
 episode: 115
 btc_price_usd: "797,078"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The great injustice

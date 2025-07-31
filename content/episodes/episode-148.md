@@ -1,5 +1,5 @@
 ---
-title: "Episode 148"
+title: "The Last Episode"
 date: 2024-01-02
 episode: 148
 btc_price_usd: "37,739"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The Last Episode

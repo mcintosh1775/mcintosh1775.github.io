@@ -1,5 +1,5 @@
 ---
-title: "Episode 93"
+title: "The Bitcoin halving"
 date: 2023-02-01
 episode: 93
 btc_price_usd: "23,774"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Bitcoin halving

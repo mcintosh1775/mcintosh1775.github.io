@@ -1,5 +1,5 @@
 ---
-title: "Episode 100"
+title: "Secessio plebis - Stop Using Their Systems"
 date: 2023-03-30
 episode: 100
 btc_price_usd: "28,038"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Secessio plebis - Stop Using Their Systems

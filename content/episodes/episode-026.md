@@ -1,5 +1,5 @@
 ---
-title: "Episode 26"
+title: "The Tax Man Cometh"
 date: 2022-09-27
 episode: 26
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Tax Man Cometh

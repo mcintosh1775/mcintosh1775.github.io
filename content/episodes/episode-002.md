@@ -1,5 +1,5 @@
 ---
-title: "Episode 2"
+title: "Crypto Terminology 101"
 date: 2022-09-27
 episode: 2
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Crypto Terminology 101

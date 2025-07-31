@@ -1,5 +1,5 @@
 ---
-title: "Episode 18"
+title: "There's a whole new Metaverse out there"
 date: 2022-09-27
 episode: 18
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-There's a whole new Metaverse out there

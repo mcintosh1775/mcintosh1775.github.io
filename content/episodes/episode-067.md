@@ -1,5 +1,5 @@
 ---
-title: "Episode 67"
+title: "Your Right to Financial Privacy"
 date: 2022-09-17
 episode: 67
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Your Right to Financial Privacy

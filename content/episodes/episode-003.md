@@ -1,5 +1,5 @@
 ---
-title: "Episode 3"
+title: "The King of Crypto - An Overview of Bitcoin"
 date: 2022-09-27
 episode: 3
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The King of Crypto - An Overview of Bitcoin

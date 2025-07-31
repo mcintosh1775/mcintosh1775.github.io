@@ -1,5 +1,5 @@
 ---
-title: "Episode 63"
+title: "Is Bitcoin Bad for the Environment?"
 date: 2022-09-17
 episode: 63
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Is Bitcoin Bad for the Environment?

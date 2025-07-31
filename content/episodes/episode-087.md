@@ -1,5 +1,5 @@
 ---
-title: "Episode 87"
+title: "Spending vs Saving"
 date: 2022-12-20
 episode: 87
 btc_price_usd: "16,757"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Spending vs Saving

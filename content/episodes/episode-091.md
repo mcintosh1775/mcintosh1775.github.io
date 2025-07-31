@@ -1,5 +1,5 @@
 ---
-title: "Episode 91"
+title: "What about Debt??"
 date: 2023-01-18
 episode: 91
 btc_price_usd: "20,880"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What about Debt??

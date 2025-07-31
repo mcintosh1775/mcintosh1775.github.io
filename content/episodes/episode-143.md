@@ -1,5 +1,5 @@
 ---
-title: "Episode 143"
+title: "Are You in the Right Mindset?"
 date: 2024-01-02
 episode: 143
 btc_price_usd: "36,702"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Are You in the Right Mindset?

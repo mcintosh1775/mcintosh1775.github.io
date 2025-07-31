@@ -1,5 +1,5 @@
 ---
-title: "Episode 58"
+title: "CBDCs vs Bitcoin - Prepare for the Future"
 date: 2022-09-21
 episode: 58
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-CBDCs vs Bitcoin - Prepare for the Future

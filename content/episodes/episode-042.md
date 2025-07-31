@@ -1,5 +1,5 @@
 ---
-title: "Episode 42"
+title: "It's a Free for All!!!"
 date: 2022-09-25
 episode: 42
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-It's a Free for All!!!

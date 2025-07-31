@@ -1,5 +1,5 @@
 ---
-title: "Episode 97"
+title: "Welcome to Generation Bitcoin"
 date: 2023-03-30
 episode: 97
 btc_price_usd: "23,561"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Welcome to Generation Bitcoin

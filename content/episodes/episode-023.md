@@ -1,5 +1,5 @@
 ---
-title: "Episode 23"
+title: "XRP Army! An update on Ripple and the XRP Token"
 date: 2022-09-27
 episode: 23
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-XRP Army! An update on Ripple and the XRP Token

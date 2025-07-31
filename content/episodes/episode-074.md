@@ -1,5 +1,5 @@
 ---
-title: "Episode 74"
+title: "The Macro Environment and the Effect on Crypto Prices"
 date: 2022-09-26
 episode: 74
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Macro Environment and the Effect on Crypto Prices

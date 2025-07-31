@@ -1,5 +1,5 @@
 ---
-title: "Episode 129"
+title: "Bitcoin Basics: Seed Phrases, Security and BIP 39"
 date: 2023-09-15
 episode: 129
 btc_price_usd: "26,626"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin Basics: Seed Phrases, Security and BIP 39

@@ -1,5 +1,5 @@
 ---
-title: "Episode 37"
+title: "Don't Stop Believing"
 date: 2022-09-25
 episode: 37
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Don't Stop Believing

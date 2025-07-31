@@ -1,5 +1,5 @@
 ---
-title: "Episode 86"
+title: "Inflation and Deflation"
 date: 2022-12-12
 episode: 86
 btc_price_usd: "17,072"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Inflation and Deflation

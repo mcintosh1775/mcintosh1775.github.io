@@ -1,5 +1,5 @@
 ---
-title: "Episode 102"
+title: "Why I bitcoin - Part One"
 date: 2023-04-12
 episode: 102
 btc_price_usd: "28,333"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Why I bitcoin - Part One

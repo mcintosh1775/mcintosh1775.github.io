@@ -1,5 +1,5 @@
 ---
-title: "Episode 8"
+title: "Don't Get Hacked!"
 date: 2022-09-27
 episode: 8
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Don't Get Hacked!

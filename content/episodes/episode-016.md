@@ -1,5 +1,5 @@
 ---
-title: "Episode 16"
+title: "Blockchain Trilemma or the three-leg stool of cryptocurrency"
 date: 2022-09-27
 episode: 16
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Blockchain Trilemma or the three-leg stool of cryptocurrency

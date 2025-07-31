@@ -1,5 +1,5 @@
 ---
-title: "Episode 108"
+title: "bitcoin Mining 202"
 date: 2023-05-15
 episode: 108
 btc_price_usd: "28,446"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-bitcoin Mining 202

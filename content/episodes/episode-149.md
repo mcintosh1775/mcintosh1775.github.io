@@ -1,5 +1,5 @@
 ---
-title: "Episode 149"
+title: "Year in Review and 2024 Predictions"
 date: 2024-01-01
 episode: 149
 btc_price_usd: "42,629"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Year in Review and 2024 Predictions

@@ -1,5 +1,5 @@
 ---
-title: "Episode 95"
+title: "Nostr, Nigeria and the SEC"
 date: 2023-02-17
 episode: 95
 btc_price_usd: "21,788"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Nostr, Nigeria and the SEC

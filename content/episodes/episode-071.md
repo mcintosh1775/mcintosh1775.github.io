@@ -1,5 +1,5 @@
 ---
-title: "Episode 71"
+title: "What's Buzzing with Hive?"
 date: 2022-09-16
 episode: 71
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What's Buzzing with Hive?

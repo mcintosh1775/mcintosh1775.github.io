@@ -1,5 +1,5 @@
 ---
-title: "Episode 156"
+title: "Is Bitcoin for the Poor?"
 date: 2024-02-07
 episode: 156
 podhome_id: "a46720b0-3d0e-471f-a0bd-de4e0ba71cbe"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Is Bitcoin for the Poor?

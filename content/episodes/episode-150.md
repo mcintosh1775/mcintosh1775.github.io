@@ -1,5 +1,5 @@
 ---
-title: "Episode 150"
+title: "Why Privacy Matters"
 date: 2024-01-08
 episode: 150
 btc_price_usd: "43,948"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Why Privacy Matters

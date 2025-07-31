@@ -1,5 +1,5 @@
 ---
-title: "Episode 120"
+title: "Bitcoin Cuts the Gordian Knot"
 date: 2023-08-06
 episode: 120
 btc_price_usd: "29,040"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin Cuts the Gordian Knot

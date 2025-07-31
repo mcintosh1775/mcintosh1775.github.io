@@ -1,5 +1,5 @@
 ---
-title: "Episode 22"
+title: "2021 - The Year in Review"
 date: 2022-09-27
 episode: 22
 btc_price_usd: "2,022"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-2021 - The Year in Review

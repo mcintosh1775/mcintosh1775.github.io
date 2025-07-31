@@ -1,5 +1,5 @@
 ---
-title: "Episode 82"
+title: "My Long Term Plan"
 date: 2022-11-14
 episode: 82
 btc_price_usd: "16,363"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-My Long Term Plan

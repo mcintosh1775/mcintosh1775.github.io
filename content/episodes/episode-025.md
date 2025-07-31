@@ -1,5 +1,5 @@
 ---
-title: "Episode 25"
+title: "Staking and News from the Nations"
 date: 2022-09-27
 episode: 25
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Staking and News from the Nations

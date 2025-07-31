@@ -1,5 +1,5 @@
 ---
-title: "Episode 83"
+title: "The Great Unwinding"
 date: 2022-11-21
 episode: 83
 btc_price_usd: "16,291"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Great Unwinding

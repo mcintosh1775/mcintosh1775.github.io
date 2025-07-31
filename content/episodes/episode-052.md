@@ -1,5 +1,5 @@
 ---
-title: "Episode 52"
+title: "Will the Ethereum Merge Set it Free?"
 date: 2022-09-21
 episode: 52
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Will the Ethereum Merge Set it Free?

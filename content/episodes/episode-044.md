@@ -1,5 +1,5 @@
 ---
-title: "Episode 44"
+title: "The Bear Roars"
 date: 2022-09-25
 episode: 44
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Bear Roars

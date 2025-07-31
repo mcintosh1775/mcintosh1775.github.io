@@ -1,5 +1,5 @@
 ---
-title: "Episode 119"
+title: "What Makes a Bitcoiner?"
 date: 2023-07-31
 episode: 119
 btc_price_usd: "29,282"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-What Makes a Bitcoiner?

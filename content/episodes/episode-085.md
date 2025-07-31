@@ -1,5 +1,5 @@
 ---
-title: "Episode 85"
+title: "Sound Money vs Stable Money"
 date: 2022-12-09
 episode: 85
 btc_price_usd: "17,130"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Sound Money vs Stable Money

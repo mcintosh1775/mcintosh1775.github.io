@@ -1,5 +1,5 @@
 ---
-title: "Episode 153"
+title: "My Desktop"
 date: 2024-01-20
 episode: 153
 podhome_id: "8466ee27-4dba-4045-9c80-d0d833f9e0a5"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-My Desktop

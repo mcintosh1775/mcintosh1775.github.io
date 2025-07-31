@@ -1,5 +1,5 @@
 ---
-title: "Episode 6"
+title: "The Sky is Falling!!!"
 date: 2022-09-27
 episode: 6
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Sky is Falling!!!

@@ -1,5 +1,5 @@
 ---
-title: "Episode 9"
+title: "DCA - the Core of Creating Generational Wealth"
 date: 2022-09-27
 episode: 9
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-DCA - the Core of Creating Generational Wealth

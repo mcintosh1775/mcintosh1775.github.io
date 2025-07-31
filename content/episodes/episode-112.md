@@ -1,5 +1,5 @@
 ---
-title: "Episode 112"
+title: "State of the Generation Bitcoin podcast"
 date: 2023-07-18
 episode: 112
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-State of the Generation Bitcoin podcast

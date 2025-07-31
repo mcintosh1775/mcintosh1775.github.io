@@ -1,5 +1,5 @@
 ---
-title: "Episode 59"
+title: "Is Monero a Good Privacy Coin?"
 date: 2022-09-21
 episode: 59
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Is Monero a Good Privacy Coin?

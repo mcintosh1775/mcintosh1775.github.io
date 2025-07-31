@@ -1,5 +1,5 @@
 ---
-title: "Episode 133"
+title: "A Million Dreams"
 date: 2023-09-28
 episode: 133
 btc_price_usd: "26,352"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-A Million Dreams

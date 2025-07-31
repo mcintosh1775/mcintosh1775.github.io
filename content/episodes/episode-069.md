@@ -1,5 +1,5 @@
 ---
-title: "Episode 69"
+title: "It's a Dilemma - Security, Speed and Decentralization"
 date: 2022-09-16
 episode: 69
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-It's a Dilemma - Security, Speed and Decentralization

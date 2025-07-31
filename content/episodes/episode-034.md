@@ -1,5 +1,5 @@
 ---
-title: "Episode 34"
+title: "Put it in the vault - Part one"
 date: 2022-09-26
 episode: 34
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Put it in the vault - Part one

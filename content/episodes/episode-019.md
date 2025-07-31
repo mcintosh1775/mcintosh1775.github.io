@@ -1,5 +1,5 @@
 ---
-title: "Episode 19"
+title: "Why I am in Crytpo"
 date: 2022-09-27
 episode: 19
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Why I am in Crytpo

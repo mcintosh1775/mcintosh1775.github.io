@@ -1,5 +1,5 @@
 ---
-title: "Episode 38"
+title: "Earning interest with your crypto"
 date: 2022-09-25
 episode: 38
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Earning interest with your crypto

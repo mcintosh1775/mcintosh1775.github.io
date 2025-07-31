@@ -1,5 +1,5 @@
 ---
-title: "Episode 31"
+title: "Where do we go from here? There are three scenarios going forward...."
 date: 2022-09-27
 episode: 31
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Where do we go from here? There are three scenarios going forward....

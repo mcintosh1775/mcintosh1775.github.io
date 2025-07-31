@@ -1,5 +1,5 @@
 ---
-title: "Episode 123"
+title: "is argentina entering hyperinflation - part Two"
 date: 2023-08-24
 episode: 123
 btc_price_usd: "26,431"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-is argentina entering hyperinflation - part Two

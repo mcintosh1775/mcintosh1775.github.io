@@ -1,5 +1,5 @@
 ---
-title: "Episode 125"
+title: "Technical Difficulties and Good news!"
 date: 2023-09-01
 episode: 125
 btc_price_usd: "25,950"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Technical Difficulties and Good news!

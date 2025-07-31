@@ -1,5 +1,5 @@
 ---
-title: "Episode 56"
+title: "BUY THE DIP!!"
 date: 2022-09-21
 episode: 56
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-BUY THE DIP!!

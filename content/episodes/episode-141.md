@@ -1,5 +1,5 @@
 ---
-title: "Episode 141"
+title: "A Conversation with Seth For Privacy"
 date: 2024-01-02
 episode: 141
 btc_price_usd: "34,623"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-A Conversation with Seth For Privacy

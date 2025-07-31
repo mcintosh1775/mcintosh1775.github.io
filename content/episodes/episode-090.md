@@ -1,5 +1,5 @@
 ---
-title: "Episode 90"
+title: "XRP, Stellar and the ISO 20022 Standard"
 date: 2023-01-09
 episode: 90
 btc_price_usd: "17,118"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-XRP, Stellar and the ISO 20022 Standard

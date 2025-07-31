@@ -1,5 +1,5 @@
 ---
-title: "Episode 116"
+title: "Will BRICS Gold be the next global currency?"
 date: 2023-07-18
 episode: 116
 btc_price_usd: "798,058"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Will BRICS Gold be the next global currency?

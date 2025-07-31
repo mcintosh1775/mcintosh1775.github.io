@@ -1,5 +1,5 @@
 ---
-title: "Episode 84"
+title: "An Overview of Austrian and Keynesian Economics"
 date: 2022-11-29
 episode: 84
 btc_price_usd: "10,000"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-An Overview of Austrian and Keynesian Economics

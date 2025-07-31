@@ -1,5 +1,5 @@
 ---
-title: "Episode 127"
+title: "FASB Who?"
 date: 2023-09-08
 episode: 127
 btc_price_usd: "26,238"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-FASB Who?

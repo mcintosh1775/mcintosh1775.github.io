@@ -1,5 +1,5 @@
 ---
-title: "Episode 111"
+title: "SEC Suing Coinbase and Binance - What Does that Mean?"
 date: 2023-07-18
 episode: 111
 btc_price_usd: ""
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-SEC Suing Coinbase and Binance - What Does that Mean?

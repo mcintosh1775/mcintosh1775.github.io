@@ -1,5 +1,5 @@
 ---
-title: "Episode 160"
+title: "Should You Be All In?"
 date: 2024-03-04
 episode: 160
 podhome_id: "9d0c22ae-ed01-445e-80f2-020a3d58f4d5"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Should You Be All In?

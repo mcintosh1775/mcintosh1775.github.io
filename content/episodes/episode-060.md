@@ -1,5 +1,5 @@
 ---
-title: "Episode 60"
+title: "Declare Your Fiat Freedom - It's Independence Day!"
 date: 2022-09-21
 episode: 60
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Declare Your Fiat Freedom - It's Independence Day!

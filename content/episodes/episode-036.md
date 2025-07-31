@@ -1,5 +1,5 @@
 ---
-title: "Episode 36"
+title: "Should you spend your crypto?"
 date: 2022-09-25
 episode: 36
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Should you spend your crypto?

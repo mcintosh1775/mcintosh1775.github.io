@@ -1,5 +1,5 @@
 ---
-title: "Episode 55"
+title: "News and Notes"
 date: 2022-09-21
 episode: 55
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-News and Notes

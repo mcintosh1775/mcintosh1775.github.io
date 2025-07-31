@@ -1,5 +1,5 @@
 ---
-title: "Episode 132"
+title: "Keynesian Fallacy"
 date: 2023-09-25
 episode: 132
 btc_price_usd: "26,221"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Keynesian Fallacy

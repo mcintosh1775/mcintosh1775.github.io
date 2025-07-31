@@ -1,5 +1,5 @@
 ---
-title: "Episode 21"
+title: "Cardano Ecosystem Update"
 date: 2022-09-27
 episode: 21
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Cardano Ecosystem Update

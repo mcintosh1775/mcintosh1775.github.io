@@ -1,5 +1,5 @@
 ---
-title: "Episode 110"
+title: "We Aren't All Going to Make It - But You CaN"
 date: 2023-07-17
 episode: 110
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-We Aren't All Going to Make It - But You CaN

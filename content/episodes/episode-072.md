@@ -1,5 +1,5 @@
 ---
-title: "Episode 72"
+title: "Ethereum Merge - Special Episode!"
 date: 2022-09-16
 episode: 72
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Ethereum Merge - Special Episode!

@@ -1,5 +1,5 @@
 ---
-title: "Episode 155"
+title: "Separation of State and Money"
 date: 2024-01-29
 episode: 155
 podhome_id: "74c2c8f7-40b0-4c8c-b014-6b84936b1572"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Separation of State and Money

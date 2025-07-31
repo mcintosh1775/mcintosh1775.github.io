@@ -1,5 +1,5 @@
 ---
-title: "Episode 65"
+title: "What is the market doing? bull? bear? cat?"
 date: 2022-09-17
 episode: 65
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What is the market doing? bull? bear? cat?

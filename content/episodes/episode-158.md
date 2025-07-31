@@ -1,5 +1,5 @@
 ---
-title: "Episode 158"
+title: "The Pullback"
 date: 2024-03-04
 episode: 158
 podhome_id: "af0931d6-c450-47c4-822d-fa826e97fc3a"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The Pullback

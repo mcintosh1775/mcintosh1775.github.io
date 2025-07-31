@@ -1,5 +1,5 @@
 ---
-title: "Episode 70"
+title: "Bitcoin as Part of a Solution for Climate Change"
 date: 2022-09-10
 episode: 70
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin as Part of a Solution for Climate Change

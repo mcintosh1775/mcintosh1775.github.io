@@ -1,5 +1,5 @@
 ---
-title: "Episode 13"
+title: "Please learn from my mistakes!"
 date: 2022-09-27
 episode: 13
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Please learn from my mistakes!

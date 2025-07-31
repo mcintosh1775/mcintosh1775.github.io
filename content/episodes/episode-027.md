@@ -1,5 +1,5 @@
 ---
-title: "Episode 27"
+title: "The Value 4 Value model, Podasting 2.0 and Crypto"
 date: 2022-09-27
 episode: 27
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Value 4 Value model, Podasting 2.0 and Crypto

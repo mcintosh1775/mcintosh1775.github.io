@@ -1,5 +1,5 @@
 ---
-title: "Episode 7"
+title: "To Centralize or not to Centralize .. That is the Question!"
 date: 2022-09-27
 episode: 7
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-To Centralize or not to Centralize .. That is the Question!

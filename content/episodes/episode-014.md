@@ -1,5 +1,5 @@
 ---
-title: "Episode 14"
+title: "And I don't worry 'cause my wallet's fat"
 date: 2022-09-27
 episode: 14
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-And I don't worry 'cause my wallet's fat

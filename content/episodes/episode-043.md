@@ -1,5 +1,5 @@
 ---
-title: "Episode 43"
+title: "Can you dig it?"
 date: 2022-09-25
 episode: 43
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Can you dig it?

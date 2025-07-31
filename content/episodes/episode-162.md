@@ -1,5 +1,5 @@
 ---
-title: "Episode 162"
+title: "Shiny Object Syndrome"
 date: 2024-03-19
 episode: 162
 podhome_id: "daa78cfa-ca9d-484f-af31-122ab4696953"
@@ -14,5 +14,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Shiny Object Syndrome

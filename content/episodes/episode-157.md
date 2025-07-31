@@ -1,5 +1,5 @@
 ---
-title: "Episode 157"
+title: "And Then They Fight You"
 date: 2024-02-17
 episode: 157
 btc_price_usd: "48,286"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-And Then They Fight You

@@ -1,5 +1,5 @@
 ---
-title: "Episode 94"
+title: "The Evil Empire"
 date: 2023-02-17
 episode: 94
 btc_price_usd: "22,955"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The Evil Empire

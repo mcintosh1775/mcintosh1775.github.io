@@ -1,5 +1,5 @@
 ---
-title: "Episode 40"
+title: "Another Country is Making Bitcoin Legal Tender"
 date: 2022-09-25
 episode: 40
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Another Country is Making Bitcoin Legal Tender

@@ -1,5 +1,5 @@
 ---
-title: "Episode 28"
+title: "Streaming Sats and Preparing for the Bear??"
 date: 2022-09-27
 episode: 28
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Streaming Sats and Preparing for the Bear??

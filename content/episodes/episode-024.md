@@ -1,5 +1,5 @@
 ---
-title: "Episode 24"
+title: "Don't Sell!"
 date: 2022-09-27
 episode: 24
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Don't Sell!

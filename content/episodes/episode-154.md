@@ -1,5 +1,5 @@
 ---
-title: "Episode 154"
+title: "Bitcoin for the Risk Averse"
 date: 2024-01-22
 episode: 154
 podhome_id: "e0dd54f4-0cfd-45ab-9061-b39ac821cbc8"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin for the Risk Averse

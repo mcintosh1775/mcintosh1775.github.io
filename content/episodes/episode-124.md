@@ -1,5 +1,5 @@
 ---
-title: "Episode 124"
+title: "Is regulation incoming?"
 date: 2023-08-28
 episode: 124
 btc_price_usd: "26,069"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Is regulation incoming?

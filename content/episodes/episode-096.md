@@ -1,5 +1,5 @@
 ---
-title: "Episode 96"
+title: "Bitcoin and NFTs - Ordinal Inscripts and Jpegs on the blockchain"
 date: 2023-02-17
 episode: 96
 btc_price_usd: "24,327"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin and NFTs - Ordinal Inscripts and Jpegs on the blockchain

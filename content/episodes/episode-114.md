@@ -1,5 +1,5 @@
 ---
-title: "Episode 114"
+title: "The path to hyperbitcoinization"
 date: 2023-07-18
 episode: 114
 btc_price_usd: "30,461"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The path to hyperbitcoinization

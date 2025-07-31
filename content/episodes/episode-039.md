@@ -1,5 +1,5 @@
 ---
-title: "Episode 39"
+title: "Earning decentralized interest"
 date: 2022-09-25
 episode: 39
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Earning decentralized interest

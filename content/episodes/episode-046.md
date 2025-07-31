@@ -1,5 +1,5 @@
 ---
-title: "Episode 46"
+title: "Where's the floor?"
 date: 2022-09-25
 episode: 46
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Where's the floor?

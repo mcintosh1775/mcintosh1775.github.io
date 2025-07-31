@@ -1,5 +1,5 @@
 ---
-title: "Episode 32"
+title: "Your Quarterly Checkup"
 date: 2022-09-27
 episode: 32
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Your Quarterly Checkup

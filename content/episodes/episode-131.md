@@ -1,5 +1,5 @@
 ---
-title: "Episode 131"
+title: "down the mine shaft"
 date: 2023-09-23
 episode: 131
 btc_price_usd: "26,590"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-down the mine shaft

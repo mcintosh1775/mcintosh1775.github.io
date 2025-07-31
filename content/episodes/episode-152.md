@@ -1,5 +1,5 @@
 ---
-title: "Episode 152"
+title: "Privacy Tools"
 date: 2024-01-16
 episode: 152
 podhome_id: "8a5c4d6e-c8b4-4384-afa0-2605723d03d8"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Privacy Tools

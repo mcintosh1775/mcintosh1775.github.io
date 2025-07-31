@@ -1,5 +1,5 @@
 ---
-title: "Episode 109"
+title: "Why Privacy is Important On An Open Blockchain"
 date: 2023-07-17
 episode: 109
 btc_price_usd: "28,446"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Why Privacy is Important On An Open Blockchain

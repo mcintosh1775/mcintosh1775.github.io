@@ -1,5 +1,5 @@
 ---
-title: "Episode 45"
+title: "The 2022 Black Swan event is happening"
 date: 2022-09-25
 episode: 45
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The 2022 Black Swan event is happening

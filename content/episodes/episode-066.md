@@ -1,5 +1,5 @@
 ---
-title: "Episode 66"
+title: "Who will be the first shrimp?"
 date: 2022-09-17
 episode: 66
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Who will be the first shrimp?

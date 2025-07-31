@@ -1,5 +1,5 @@
 ---
-title: "Episode 73"
+title: "More Fun with Numbers"
 date: 2022-09-19
 episode: 73
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-More Fun with Numbers

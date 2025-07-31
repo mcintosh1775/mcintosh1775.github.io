@@ -1,5 +1,5 @@
 ---
-title: "Episode 135"
+title: "macro update"
 date: 2023-10-10
 episode: 135
 btc_price_usd: "27,762"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-macro update

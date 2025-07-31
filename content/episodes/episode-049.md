@@ -1,5 +1,5 @@
 ---
-title: "Episode 49"
+title: "What about Algo?"
 date: 2022-09-25
 episode: 49
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What about Algo?

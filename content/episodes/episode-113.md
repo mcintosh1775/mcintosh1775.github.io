@@ -1,5 +1,5 @@
 ---
-title: "Episode 113"
+title: "What is a fedimint?"
 date: 2023-07-18
 episode: 113
 btc_price_usd: "795,117"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-What is a fedimint?

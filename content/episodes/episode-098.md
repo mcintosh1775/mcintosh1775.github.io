@@ -1,5 +1,5 @@
 ---
-title: "Episode 98"
+title: "Value4Value, Advertising and Podcasting 2.0 with Kyrin Down of Mere MortalS"
 date: 2023-03-30
 episode: 98
 btc_price_usd: "22,435"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Value4Value, Advertising and Podcasting 2.0 with Kyrin Down of Mere MortalS

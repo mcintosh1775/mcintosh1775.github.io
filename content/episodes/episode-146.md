@@ -1,5 +1,5 @@
 ---
-title: "Episode 146"
+title: "Happy Thanksgiving and F2Pool Boo!!!"
 date: 2024-01-02
 episode: 146
 btc_price_usd: "37,116"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Happy Thanksgiving and F2Pool Boo!!!

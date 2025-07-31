@@ -1,5 +1,5 @@
 ---
-title: "Episode 48"
+title: "Bitcoin Pizza Day!"
 date: 2022-09-25
 episode: 48
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Bitcoin Pizza Day!

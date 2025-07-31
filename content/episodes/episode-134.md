@@ -1,5 +1,5 @@
 ---
-title: "Episode 134"
+title: "Lightning network update"
 date: 2023-10-02
 episode: 134
 btc_price_usd: "27,986"
@@ -10,5 +10,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Lightning network update

@@ -1,5 +1,5 @@
 ---
-title: "Episode 151"
+title: "Privacy Fundamentals"
 date: 2024-01-16
 episode: 151
 podhome_id: "29319b5e-cff5-42a7-a909-fe1480089e24"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-Privacy Fundamentals

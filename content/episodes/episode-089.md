@@ -1,5 +1,5 @@
 ---
-title: "Episode 89"
+title: "What about gold"
 date: 2023-01-02
 episode: 89
 btc_price_usd: "16,625"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What about gold

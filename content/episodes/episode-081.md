@@ -1,5 +1,5 @@
 ---
-title: "Episode 81"
+title: "FTX and Alameda Research Go Down in Flames -- a special episode"
 date: 2022-11-12
 episode: 81
 btc_price_usd: "15,877"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-FTX and Alameda Research Go Down in Flames -- a special episode

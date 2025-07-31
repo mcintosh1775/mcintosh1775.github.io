@@ -1,5 +1,5 @@
 ---
-title: "Episode 17"
+title: "NFTs - Why is a jpg worth so much?"
 date: 2022-09-27
 episode: 17
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-NFTs - Why is a jpg worth so much?

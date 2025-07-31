@@ -1,5 +1,5 @@
 ---
-title: "Episode 68"
+title: "Self Custody 101"
 date: 2022-09-17
 episode: 68
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Self Custody 101

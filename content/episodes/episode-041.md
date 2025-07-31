@@ -1,5 +1,5 @@
 ---
-title: "Episode 41"
+title: "Vive la révolution -- long live the Crypto revolution!"
 date: 2022-09-25
 episode: 41
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Vive la révolution -- long live the Crypto revolution!

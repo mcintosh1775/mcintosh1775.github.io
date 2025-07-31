@@ -1,5 +1,5 @@
 ---
-title: "Episode 61"
+title: "A Brief History of French Colonial Africa"
 date: 2022-09-20
 episode: 61
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-A Brief History of French Colonial Africa

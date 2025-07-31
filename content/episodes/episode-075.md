@@ -1,5 +1,5 @@
 ---
-title: "Episode 75"
+title: "IS IT but the deep breath before the plunge?"
 date: 2022-10-03
 episode: 75
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-IS IT but the deep breath before the plunge?

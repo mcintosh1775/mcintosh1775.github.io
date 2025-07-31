@@ -1,5 +1,5 @@
 ---
-title: "Episode 77"
+title: "Is the IMF Bad for developing countries?"
 date: 2022-10-17
 episode: 77
 btc_price_usd: "19,268"
@@ -13,5 +13,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Is the IMF Bad for developing countries?

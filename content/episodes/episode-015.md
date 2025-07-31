@@ -1,5 +1,5 @@
 ---
-title: "Episode 15"
+title: "It's NOT too late!"
 date: 2022-09-27
 episode: 15
 music_credits:
@@ -11,5 +11,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-It's NOT too late!

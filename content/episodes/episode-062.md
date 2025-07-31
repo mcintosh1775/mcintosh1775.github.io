@@ -1,5 +1,5 @@
 ---
-title: "Episode 62"
+title: "The CFA and How Developing"
 date: 2022-09-20
 episode: 62
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-The CFA and How Developing

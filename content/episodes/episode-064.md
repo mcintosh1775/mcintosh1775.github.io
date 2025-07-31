@@ -1,5 +1,5 @@
 ---
-title: "Episode 64"
+title: "Simple Math and Bitcoin"
 date: 2022-09-17
 episode: 64
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Simple Math and Bitcoin

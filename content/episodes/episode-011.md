@@ -1,5 +1,5 @@
 ---
-title: "Episode 11"
+title: "Don't let the bear bite you!"
 date: 2022-09-27
 episode: 11
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Don't let the bear bite you!

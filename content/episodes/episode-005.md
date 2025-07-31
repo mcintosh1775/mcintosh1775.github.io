@@ -1,5 +1,5 @@
 ---
-title: "Episode 5"
+title: "What's up with Cardano?"
 date: 2022-09-27
 episode: 5
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-What's up with Cardano?

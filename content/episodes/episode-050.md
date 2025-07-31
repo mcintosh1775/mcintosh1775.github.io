@@ -1,5 +1,5 @@
 ---
-title: "Episode 50"
+title: "My Existential Crisis"
 date: 2022-09-21
 episode: 50
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-My Existential Crisis

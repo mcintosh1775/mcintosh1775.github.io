@@ -1,5 +1,5 @@
 ---
-title: "Episode 12"
+title: "Cleanup on aisle one! Layer Two Protocols on the Ethereum Main Net"
 date: 2022-09-27
 episode: 12
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Cleanup on aisle one! Layer Two Protocols on the Ethereum Main Net

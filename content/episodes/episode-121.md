@@ -1,5 +1,5 @@
 ---
-title: "Episode 121"
+title: "News and notes"
 date: 2023-08-17
 episode: 121
 btc_price_usd: "29,282"
@@ -11,5 +11,3 @@ music_credits:
   - title: "License"
     link: "https://filmmusic.io/standard-license"
 ---
-
-News and notes

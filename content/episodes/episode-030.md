@@ -1,5 +1,5 @@
 ---
-title: "Episode 30"
+title: "All the news that is fit to print -- or listen to -- Executive Orders, CPI data, Economic and Crypto Sanctions and DeFi takes a tumble"
 date: 2022-09-27
 episode: 30
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-All the news that is fit to print -- or listen to -- Executive Orders, CPI data, Economic and Crypto Sanctions and DeFi takes a tumble

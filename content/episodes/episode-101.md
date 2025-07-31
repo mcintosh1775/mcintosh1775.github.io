@@ -1,5 +1,5 @@
 ---
-title: "Episode 101"
+title: "The Four year Cycle"
 date: 2023-03-30
 episode: 101
 btc_price_usd: "22,163"
@@ -12,5 +12,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The Four year Cycle

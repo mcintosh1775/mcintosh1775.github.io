@@ -1,5 +1,5 @@
 ---
-title: "Episode 4"
+title: "Ethereum - The Business Blockchain"
 date: 2022-09-27
 episode: 4
 music_credits:
@@ -12,5 +12,3 @@ music_credits:
 
 tags: ["bitcoin", "podcast"]
 ---
-
-Ethereum - The Business Blockchain

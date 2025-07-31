@@ -1,5 +1,5 @@
 ---
-title: "Episode 126"
+title: "The SeedSigner Project - DIY for the Masses"
 date: 2023-09-04
 episode: 126
 podhome_id: "9c9ffb57-70f5-482b-96d4-a8ef05066bef"
@@ -13,5 +13,3 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
-
-The SeedSigner Project - DIY for the Masses

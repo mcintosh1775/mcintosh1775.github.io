@@ -54,23 +54,15 @@
                 </div>
                 {{ end }}
                 
-                {{ if .Params.transcript }}
+                {{ $transcriptPath := printf "episodes/episode-%d-transcript.md" .Params.episode }}
+                {{ with .Site.GetPage $transcriptPath }}
                 <div class="episode-transcript">
                     <details>
                         <summary><h2>Transcript</h2></summary>
                         <div class="transcript-content">
-                            {{ .Params.transcript | markdownify }}
+                            {{ .Content }}
                         </div>
                     </details>
-                </div>
-                {{ end }}
-                
-                {{ if .Params.transcript }}
-                <div class="episode-transcript">
-                    <h2>Transcript</h2>
-                    <div class="transcript-content">
-                        {{ .Params.transcript | markdownify }}
-                    </div>
                 </div>
                 {{ end }}
                 

@@ -8,11 +8,11 @@ _build:
 
 [00:00:00] McIntosh:
 
-Welcome back to Satoshi's Plebs for episode two twenty. I'm Macintosh. 
+Welcome back to Satoshi's Plebs for episode 220. I'm Macintosh. 
 
 [00:00:06] Kenshin:
 
-And I am Ken Shin. Yeah. And today we're sorry. Yes. And today we're tackling one of the most critical aspects of Bitcoin's of custody 
+And I am Kenshin. Yeah. And today we're sorry. Yes. And today we're tackling one of the most critical aspects of Bitcoin's of custody 
 
 [00:00:16] McIntosh:
 

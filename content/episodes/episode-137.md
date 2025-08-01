@@ -1,6 +1,6 @@
 ---
 title: "Diego Gurpegui"
-date: 2023-12-08
+date: 2023-10-16
 episode: 137
 btc_price_usd: "27,929"
 music_credits:

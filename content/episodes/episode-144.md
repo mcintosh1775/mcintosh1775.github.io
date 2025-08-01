@@ -1,6 +1,6 @@
 ---
 title: "I Want My Right to Mix!"
-date: 2024-01-02
+date: 2023-11-13
 episode: 144
 btc_price_usd: "37,070"
 music_credits:

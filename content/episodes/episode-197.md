@@ -1,6 +1,6 @@
 ---
 title: "Our Bitcoin Fears"
-date: 2025-02-15
+date: 2025-02-14
 episode: 197
 podhome_id: "527a47f6-41a7-4f74-982d-2c7805d38879"
 btc_price_usd: "97,600"

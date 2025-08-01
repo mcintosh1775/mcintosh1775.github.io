@@ -1,6 +1,6 @@
 ---
 title: "Are You in the Right Mindset?"
-date: 2024-01-02
+date: 2023-11-09
 episode: 143
 btc_price_usd: "36,702"
 music_credits:

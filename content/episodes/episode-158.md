@@ -1,6 +1,6 @@
 ---
 title: "The Pullback"
-date: 2024-03-04
+date: 2024-02-18
 episode: 158
 podhome_id: "af0931d6-c450-47c4-822d-fa826e97fc3a"
 btc_price_usd: "52,132"

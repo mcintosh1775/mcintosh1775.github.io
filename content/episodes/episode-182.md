@@ -1,6 +1,6 @@
 ---
 title: "Goodbye for Now"
-date: 2024-09-23
+date: 2024-09-22
 episode: 182
 podhome_id: "e7b3cb0b-0e84-46ab-b868-302b0d74964d"
 btc_price_usd: "63,614"

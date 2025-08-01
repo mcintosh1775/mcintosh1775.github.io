@@ -1,6 +1,6 @@
 ---
 title: "News and Views"
-date: 2024-01-02
+date: 2023-11-06
 episode: 142
 btc_price_usd: "35,044"
 music_credits:

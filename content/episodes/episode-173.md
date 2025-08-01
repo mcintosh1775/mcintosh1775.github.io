@@ -1,6 +1,6 @@
 ---
 title: "What About Your Backups?"
-date: 2024-07-10
+date: 2024-06-30
 episode: 173
 podhome_id: "71812bb6-7e30-4ebf-bf2b-92a15cfc076c"
 btc_price_usd: "62,673"

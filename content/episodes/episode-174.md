@@ -1,6 +1,6 @@
 ---
 title: "Crash!"
-date: 2024-07-10
+date: 2024-07-09
 episode: 174
 podhome_id: "8e495507-f72c-4c99-b2ea-fa658ffbc8c1"
 btc_price_usd: "55,849"

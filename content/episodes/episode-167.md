@@ -1,6 +1,6 @@
 ---
 title: "Episode 167"
-date: 2024-05-07
+date: 2024-05-06
 episode: 167
 podhome_id: "825c1633-74a2-4b13-8e97-c6758af782d8"
 btc_price_usd: "64,032"

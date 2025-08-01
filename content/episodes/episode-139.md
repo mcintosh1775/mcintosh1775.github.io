@@ -1,6 +1,6 @@
 ---
 title: "Special Report on Argentina Election"
-date: 2024-01-02
+date: 2023-10-22
 episode: 139
 btc_price_usd: "29,918"
 music_credits:

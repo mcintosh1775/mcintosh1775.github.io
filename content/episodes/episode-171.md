@@ -1,6 +1,6 @@
 ---
 title: "Last Half Focus" 
-date: 2024-06-11
+date: 2024-06-10
 episode: 171
 podhome_id: "aed66473-2417-4403-a0ae-c8440c0038b7"
 btc_price_usd: "69,192"

@@ -1,6 +1,6 @@
 ---
 title: "Episode 166"
-date: 2024-04-22
+date: 2024-04-21
 episode: 166
 podhome_id: "ae9f41de-9d71-48b9-a0b0-4c89bcd11b05"
 btc_price_usd: "64,945"

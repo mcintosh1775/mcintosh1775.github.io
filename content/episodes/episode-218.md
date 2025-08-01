@@ -1,6 +1,6 @@
 ---
 title: "Ready for a Million Dollar Bitcoin?"
-date: 2025-07-18
+date: 2025-07-16
 episode: 218
 podhome_id: "35be19e9-5806-4df4-97c4-8bf245c84667"
 btc_price_usd: "118,054"

@@ -1,6 +1,6 @@
 ---
 title: "My Bitcoin Journey"
-date: 2024-07-15
+date: 2024-07-14
 episode: 175
 podhome_id: "79f85650-55ea-4022-8642-e8a2a28c699a"
 btc_price_usd: "61,028"

@@ -1,6 +1,6 @@
 ---
 title: "Defeating a Scammer"
-date: 2024-08-19
+date: 2024-08-18
 episode: 179
 podhome_id: "699b2908-b52b-49e0-995c-ee1fc50e7943"
 btc_price_usd: "58,454"

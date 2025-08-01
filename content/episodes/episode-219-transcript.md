@@ -1,6 +1,9 @@
 ---
 title: "Episode 219 Transcript"
 draft: false
+_build:
+  list: never
+  render: always
 ---
 
 [00:00:00] McIntosh:

@@ -1,6 +1,6 @@
 ---
 title: "Is Your Bitcoin Safe?"
-date: 2025-07-26
+date: 2025-07-23
 episode: 219
 podhome_id: "aa17813e-fbe9-4e6e-93ab-c9148db3852a"
 btc_price_usd: "117,600"

@@ -1,6 +1,6 @@
 ---
 title: "Privacy Fundamentals"
-date: 2024-01-16
+date: 2024-01-12
 episode: 151
 podhome_id: "29319b5e-cff5-42a7-a909-fe1480089e24"
 btc_price_usd: "46,611"

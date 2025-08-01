@@ -1,6 +1,6 @@
 ---
 title: "Is Bitcoin for the Poor?"
-date: 2024-02-07
+date: 2024-02-05
 episode: 156
 podhome_id: "a46720b0-3d0e-471f-a0bd-de4e0ba71cbe"
 btc_price_usd: "42,811"

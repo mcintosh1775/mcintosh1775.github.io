@@ -1,6 +1,6 @@
 ---
 title: "The Last Satoshi"
-date: 2025-06-20
+date: 2025-06-18
 episode: 214
 podhome_id: "1125cd57-22ee-48d9-bcdf-230bd4da7b17"
 btc_price_usd: "104,270"

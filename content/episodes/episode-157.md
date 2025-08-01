@@ -1,6 +1,6 @@
 ---
 title: "And Then They Fight You"
-date: 2024-02-17
+date: 2024-02-12
 episode: 157
 btc_price_usd: "48,286"
 music_credits:

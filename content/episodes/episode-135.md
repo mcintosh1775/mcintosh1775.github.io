@@ -1,6 +1,6 @@
 ---
 title: "macro update"
-date: 2023-10-10
+date: 2023-10-05
 episode: 135
 btc_price_usd: "27,762"
 music_credits:

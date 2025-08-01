@@ -1,6 +1,6 @@
 ---
 title: "Trump's Promises"
-date: 2024-11-09
+date: 2024-11-08
 episode: 183
 podhome_id: "dbab1567-e524-4ccd-958c-6eae272e57ab"
 btc_price_usd: "76,709"

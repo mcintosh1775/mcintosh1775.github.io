@@ -1,6 +1,6 @@
 ---
 title: "Is the Bull Market Back?"
-date: 2024-01-02
+date: 2023-10-28
 episode: 140
 btc_price_usd: "2,024"
 music_credits:

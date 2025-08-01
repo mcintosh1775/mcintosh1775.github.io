@@ -1,6 +1,6 @@
 ---
 title: "Happy Thanksgiving and F2Pool Boo!!!"
-date: 2024-01-02
+date: 2023-11-23
 episode: 146
 btc_price_usd: "37,116"
 music_credits:

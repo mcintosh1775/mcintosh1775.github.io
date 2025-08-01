@@ -1,6 +1,6 @@
 ---
 title: "Did Argentina Win?"
-date: 2024-01-02
+date: 2023-11-19
 episode: 145
 btc_price_usd: "37,347"
 music_credits:

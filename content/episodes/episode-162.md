@@ -1,6 +1,6 @@
 ---
 title: "Shiny Object Syndrome"
-date: 2024-03-19
+date: 2024-03-18
 episode: 162
 podhome_id: "daa78cfa-ca9d-484f-af31-122ab4696953"
 btc_price_usd: "67,592"

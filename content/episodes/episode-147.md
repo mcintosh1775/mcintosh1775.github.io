@@ -1,6 +1,6 @@
 ---
 title: "The Final Countdown"
-date: 2024-01-02
+date: 2023-11-27
 episode: 147
 btc_price_usd: "37,454"
 music_credits:

@@ -1,6 +1,6 @@
 ---
 title: "A Sunday Chat"
-date: 2024-06-24
+date: 2024-06-03
 episode: 170
 podhome_id: "81540188-a2e2-41f6-97ef-a29bc4a8b8e9"
 btc_price_usd: "67,911"

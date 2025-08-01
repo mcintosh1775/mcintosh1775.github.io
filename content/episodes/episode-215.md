@@ -1,6 +1,6 @@
 ---
 title: "The One With All the Questions"
-date: 2025-06-27
+date: 2025-06-25
 episode: 215
 podhome_id: "b11ad94f-96af-45c5-a04f-cc2ccb571e84"
 btc_price_usd: "107,700"

@@ -1,6 +1,6 @@
 ---
 title: "Lightning Network Report"
-date: 2024-01-02
+date: 2023-10-19
 episode: 138
 btc_price_usd: "28,759"
 music_credits:

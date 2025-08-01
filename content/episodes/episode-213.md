@@ -1,6 +1,6 @@
 ---
 title: "95% Done"
-date: 2025-06-13
+date: 2025-06-11
 episode: 213
 podhome_id: "28ae3aed-f8be-4135-91a5-3b2e847d9a24"
 btc_price_usd: "108,700"

@@ -1,6 +1,6 @@
 ---
 title: "Are You Smarter Than Mises and Rothbard?"
-date: 2025-07-04
+date: 2025-07-02
 episode: 216
 podhome_id: "37bf581f-eab5-477d-9d0a-02ac793bfba2"
 btc_price_usd: "109,606"

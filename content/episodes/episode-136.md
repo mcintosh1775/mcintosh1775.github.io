@@ -1,6 +1,6 @@
 ---
 title: "Erik hersman of gridless"
-date: 2023-10-10
+date: 2023-10-09
 episode: 136
 btc_price_usd: "27,929"
 music_credits:

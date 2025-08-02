@@ -1,9 +1,10 @@
 ---
-title: "Episode 165"
+title: "The Halvening"
 date: 2024-04-14
 episode: 165
 podhome_id: "8f948180-9fd0-4863-b00d-0a13b46979f3"
 btc_price_usd: "65,757"
+block_height: "839,283"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

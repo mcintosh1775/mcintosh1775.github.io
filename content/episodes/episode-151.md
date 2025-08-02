@@ -1,9 +1,10 @@
 ---
 title: "Privacy Fundamentals"
-date: 2024-01-12
+date: 2024-01-11
 episode: 151
 podhome_id: "29319b5e-cff5-42a7-a909-fe1480089e24"
 btc_price_usd: "46,611"
+block_height: "825,353"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

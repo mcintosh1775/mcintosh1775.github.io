@@ -3,6 +3,7 @@ title: "And Then They Fight You"
 date: 2024-02-12
 episode: 157
 btc_price_usd: "48,286"
+block_height: "830,004"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

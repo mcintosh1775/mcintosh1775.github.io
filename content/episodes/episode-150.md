@@ -1,8 +1,9 @@
 ---
 title: "Why Privacy Matters"
-date: 2024-01-08
+date: 2024-01-07
 episode: 150
 btc_price_usd: "43,948"
+block_height: "824,805"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

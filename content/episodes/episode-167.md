@@ -1,9 +1,10 @@
 ---
-title: "Episode 167"
+title: "Interview with Rob Warren"
 date: 2024-05-06
 episode: 167
 podhome_id: "825c1633-74a2-4b13-8e97-c6758af782d8"
 btc_price_usd: "64,032"
+block_height: "842,286"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

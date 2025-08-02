@@ -4,6 +4,7 @@ date: 2024-07-22
 episode: 176
 podhome_id: "459424b0-a682-4eaf-9076-7d54986cb97f"
 btc_price_usd: "68,167"
+block_height: "853,300"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

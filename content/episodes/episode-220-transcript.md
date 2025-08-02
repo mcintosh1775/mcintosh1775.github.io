@@ -8,7 +8,7 @@ _build:
 
 [00:00:00] McIntosh:
 
-Welcome back to Satoshi's Plebs for episode 220. I'm Macintosh. 
+Welcome back to Satoshi's Plebs for episode 220. I'm McIntosh. 
 
 [00:00:06] Kenshin:
 
@@ -730,7 +730,7 @@ No. I mean, how how do people deal with, the backup? And they don't have to say 
 
 My problem is I just get so busy that it just whatever it was is what it was, and it I don't think about it. And then I wake up and go, oh, wait. Maybe I need to maybe I need to update that. I I am fortunate in that I'm using my my wallet, seed signer, enough that I'm not gonna forget how to use it. Okay? 
 
-But, yeah, there are things that I definitely should be doing at this point that I am not. So I appreciate, this just for that. You could have saved my family a literal fortune. Thank you, Kenshin. Right. Not that I have that fortune now just in case anybody's listening. Yeah. Yeah. I wished. Alright. I wished, but if I did, you wouldn't know. So what does it matter? I'm telling you, man. How will you know when Macintosh makes it? I might actually drive him a newer truck. 
+But, yeah, there are things that I definitely should be doing at this point that I am not. So I appreciate, this just for that. You could have saved my family a literal fortune. Thank you, Kenshin. Right. Not that I have that fortune now just in case anybody's listening. Yeah. Yeah. I wished. Alright. I wished, but if I did, you wouldn't know. So what does it matter? I'm telling you, man. How will you know when McIntosh makes it? I might actually drive him a newer truck. 
 
 [00:56:17] Kenshin:
 

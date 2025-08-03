@@ -1,6 +1,6 @@
 # Save this as: hugo.yaml
 
-baseURL: 'https://satoshis-plebs.com'
+baseURL: 'https://mcintosh1775.github.com'
 languageCode: 'en-us'
 title: "Satoshi's Plebs Podcast"
 
@@ -36,3 +36,7 @@ pagination:
 taxonomies:
   tag: tags
   category: categories
+
+caches:
+  images:
+    dir: :cacheDir/images

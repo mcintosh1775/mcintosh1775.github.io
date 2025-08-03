@@ -11,3 +11,14 @@ music_credits:
     link: "https://podcastindex.org/podcast/7363035"
 tags: ["bitcoin", "podcast"]
 ---
+McIntosh and Kenshin tackle 12 listener questions covering a wide range of Bitcoin and Nostr topics.
+
+Key Topics Discussed:
+
+ - Security practices for Bitcoin custody and inheritance planning
+ - Corporate Bitcoin adoption vs. pleb ownership concerns
+ - Future of running Bitcoin nodes on mobile devices
+ - Value-for-value podcast model evolution
+ - Post-state society possibilities with Bitcoin and Nostr
+ - Hyper-bitcoinization timeline predictions
+- AI coding journeys and dream projects

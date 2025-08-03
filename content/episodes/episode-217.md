@@ -14,4 +14,3 @@ This week McIntosh and Kenshin dive deep into the "Printer Go BRRR" meme that be
 The episode's highlight is an incredible chart showing Bitcoin's price perfectly tracking M2 money supply with just a three-month lag, demonstrating Bitcoin's role as a hedge against fiat debasement. With Bitcoin currently near all-time highs at $111,470 and recent political spending bills adding trillions more to the debt, the hosts examine what this means for Bitcoin's future price trajectory.
 
 They also touch on listener feedback about Bitcoin as a medium of exchange, recent tech updates in the Bitcoin ecosystem, and the ongoing political reality that money printing will likely continue as politicians prioritize short-term election wins over long-term fiscal responsibility.
-

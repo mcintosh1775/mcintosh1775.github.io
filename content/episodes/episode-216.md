@@ -10,5 +10,4 @@ music_credits:
     link: "https://podcastindex.org/podcast/7363035"
 tags: ["bitcoin", "podcast"]
 ---
-
-Episode 216
+McIntosh challenges Michael Saylor's "never sell your Bitcoin" messaging, arguing it contradicts Austrian economics principles and Bitcoin's purpose as money. Use the text of some of the greats of Austrian Economics it's time to take a hard look at a prominent Bitcoin meme and the possibilities of the destruction of Bitcoin's utility.

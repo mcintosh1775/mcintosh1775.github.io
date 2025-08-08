@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main>
+        <div class="container">
+            <article>
+                <header>
+                    <h1>{{ .Title }}</h1>
+                    <div class="post-meta">
+                        {{ if .Date }}
+                            <time>{{ .Date.Format "January 2, 2006" }}</time>
+                        {{ end }}
+                    </div>
+                </header>
+                
+                <div class="content">
+                    {{ .Content }}
+                </div>
+                
+                {{ if .Params.tags }}
+                    <div class="tags">
+                        {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                {{ end }}
+            </article>
+        </div>
+    </main>
+    
+    {{ partial "footer.html" . }}
+</body>
+</html>

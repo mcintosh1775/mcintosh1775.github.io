@@ -7,7 +7,7 @@
     
     <section class="recent-episodes">
         <h3>Recent Episodes</h3>
-        {{ range first 5 (where .Site.RegularPages "Section" "episodes") }}
+        {{ range first 2 (where .Site.RegularPages "Section" "episodes") }}
             <article>
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                 <time>{{ .Date.Format "January 2, 2006" }}</time>

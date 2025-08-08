@@ -17,11 +17,11 @@ Stick around to the very end for the v4v track, “Cypherpunk Not Dead” by Ele
 
 **Resources**
 
-[https://docs.joinstr.xyz](https://docs.joinstr.xyz)  
-[https://joinstr.xyz](https://joinstr.xyz)  
-[https://electrum.org](https://electrum.org) 
-[https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver) 
-[https://en.bitcoin.it/wiki/CoinJoin](https://en.bitcoin.it/wiki/CoinJoin) 
+- [https://docs.joinstr.xyz](https://docs.joinstr.xyz)
+- [https://joinstr.xyz](https://joinstr.xyz)
+- [https://electrum.org](https://electrum.org)
+- [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
+- [https://en.bitcoin.it/wiki/CoinJoin](https://en.bitcoin.it/wiki/CoinJoin)
 
 **Episode Page**
 

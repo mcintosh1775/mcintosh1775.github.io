@@ -13,7 +13,7 @@ tags: ["bitcoin", "podcast"]
 ---
 In this episode, hosts McIntosh and Kenshin dive deep into Joinster, a revolutionary decentralized CoinJoin implementation that leverages Nostr technology to address Bitcoin's privacy challenges. With major privacy services like ZKSnacks and Samourai shutting down recently, the Bitcoin community has been searching for viable alternatives, and Joinster emerges as a promising solution. The hosts cover both CoinJoin fundamentals for newcomers and dive into the technical details for more advanced listeners.
 
-Stick around to the very end for the v4v track, “Cypherpunk Not Dead” by Electrobadour
+Stick around to the very end for the V4V track, “Cypherpunk Not Dead” by Electrobadour
 
 **Resources**
 

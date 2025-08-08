@@ -3,6 +3,7 @@ title: "The Last Episode"
 date: 2023-11-30
 episode: 148
 btc_price_usd: "37,739"
+block_height: "819,165"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"

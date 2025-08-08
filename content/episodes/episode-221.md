@@ -22,8 +22,3 @@ Stick around to the very end for the v4v track, “Cypherpunk Not Dead” by Ele
 - [https://electrum.org](https://electrum.org)
 - [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 - [https://en.bitcoin.it/wiki/CoinJoin](https://en.bitcoin.it/wiki/CoinJoin)
-
-**Episode Page**
-
-[https://satoshis-plebs.com/episode-221](https://satoshis-plebs.com/episode-221)
-

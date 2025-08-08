@@ -1,5 +1,5 @@
 ---
-title: "Summer Bitcoin Backup Project"
+title: "Joinstr"
 date: 2025-08-08
 episode: 221
 podhome_id: "b0f109ef-8d04-4681-b3dc-31d23f678637"
@@ -11,4 +11,27 @@ music_credits:
     link: "https://wavlake.com/electrobadour/"
 tags: ["bitcoin", "podcast"]
 ---
-In this episode, McIntosh and Kenshin tackle one of Bitcoin's most critical aspects: proper seed phrase backup strategies. They explore various backup methods from basic pen-and-paper solutions to advanced metal stamping and creative approaches like hiding seed phrases in books. The hosts discuss essential security practices including backup redundancy, geographic distribution, inheritance planning, and advanced setups like multisig and Shamir's secret sharing. They also cover common costly mistakes, from digital storage mishaps to house fires, emphasizing why summer is the perfect time to audit and upgrade your backup systems based on your Bitcoin holdings.
+In this episode, hosts McIntosh and Kenshin dive deep into Joinster, a revolutionary decentralized CoinJoin implementation that leverages Nostr technology to address Bitcoin's privacy challenges. With major privacy services like ZKSnacks and Samourai shutting down recently, the Bitcoin community has been searching for viable alternatives, and Joinster emerges as a promising solution. The hosts cover both CoinJoin fundamentals for newcomers and dive into the technical details for more advanced listeners.
+
+Stick around to the very end for the v4v track, “Cypherpunk Not Dead” by Electrobadour
+
+**Resources**
+
+[https://docs.joinstr.xyz](https://docs.joinstr.xyz)
+[https://joinstr.xyz](https://joinstr.xyz)
+[https://electrum.org](https://electrum.org)
+[https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
+[https://en.bitcoin.it/wiki/CoinJoin](https://en.bitcoin.it/wiki/CoinJoin)
+
+**Bitcoin Price at Time of Recording**
+
+Aug 6th, 2025: 115,550 USD | 99,120 EUR
+
+**Block Height at Time of Recording**
+
+908,896
+
+**Episode Page**
+
+[https://satoshis-plebs.com/episode-221](https://satoshis-plebs.com/episode-221)
+

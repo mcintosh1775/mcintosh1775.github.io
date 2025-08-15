@@ -6,7 +6,7 @@ podhome_id: "c2dd01a2-5004-46cb-9329-b20fd4c6a9ef"
 btc_price_usd: "121,781" 
 btc_price_eur: "104,400"
 block_height: "909,881"
-music_credit:
+music_credits:
   - title: "Horizons of Hope by Jawbone"
     link: "https://wavlake.com/jawbone/"
 tags: ["bitcoin", "podcast"]

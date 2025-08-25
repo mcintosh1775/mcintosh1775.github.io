@@ -9,9 +9,13 @@ Your support helps us continue creating quality Bitcoin content and maintaining 
 ### Bitcoin/Lightning
 
 **Bitcoin Address:**
+
 bc1qYourBitcoinAddressHere
+
 **Lightning Address:**
+
 YourLightning@Address.here
+
 Or scan this QR code:
 
 [QR Code Image Here]

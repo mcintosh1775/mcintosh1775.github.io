@@ -1,18 +1,16 @@
 ---
-title: "Bitcoin Myths"
-date: 2025-09-10
+title: "Nostr Zapathon Questions"
+date: 2025-10-10
 episode: 229
 podhome_id: "5031cf59-c9eb-4dd1-90ac-e62916558590"
-btc_price_usd: "114,050" 
-btc_price_eur: "97,400"
-block_height: "914,162"
+btc_price_usd: "123,687"
+btc_price_eur: "106,300"
+block_height: "918,225"
 music_credits:
-  - title: "Play Guitar by Doerfel Family Bluegrass"
-    link: "https://www.doerfelverse.com"
+  - title: "Freedom Code Revolution"
+    link: "https://suno.com/"
 tags: ["bitcoin", "podcast"]
 ---
-In episode 225 of "Satoshi's Plebs," hosts McIntosh and Kenshin debunk eight Bitcoin myths: that it has no intrinsic value, is mainly used by criminals, wastes energy, is too volatile for currency use, will be banned by governments, has slow/expensive transactions, will be replaced by better cryptocurrencies, and is a Ponzi scheme.
+In this week's episode, McIntosh and Kenshin answer listener questions from Nostr, covering topics ranging from European Bitcoin adoption to the future of decentralized social media. The hosts discuss where European Bitcoiners might consider relocating as regulations tighten, with Switzerland emerging as a top choice despite its costs. They tackle questions about Bitcoin's role as money versus store of value, Nostr's current challenges with relay infrastructure and growth, and whether CBDCs pose any real threat to Bitcoin. The conversation also touches on Strike's new Bitcoin-backed loans in Europe, the latest Sparrow wallet update with silent payment support, and predictions for Bitcoin adoption over the next decade.
 
-They counter each myth with evidence about Bitcoin's utility, legitimate usage (99%+ of transactions), renewable energy incentives, decreasing volatility over time, decentralized resistance to bans, Lightning Network capabilities, unique leaderless structure, and survival through multiple market cycles.
-
-Stick around to the very end for the V4V track, “Play Guitar” by Doerfel Family Bluegrass.
+Stick around to the very end for Send It Mike's  track, “Freedom Code Revolution”.

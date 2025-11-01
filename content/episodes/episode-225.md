@@ -5,7 +5,7 @@ episode: 225
 podhome_id: "d2284444-343c-4b9d-aa7c-7877c40fb495"
 btc_price_usd: "114,050" 
 btc_price_eur: "97,400"
-block_height: "915,140"
+block_height: "914,162"
 music_credits:
   - title: "Play Guitar by Doerfel Family Bluegrass"
     link: "https://www.doerfelverse.com"

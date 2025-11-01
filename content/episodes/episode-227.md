@@ -1,6 +1,6 @@
 ---
 title: "Executive Order 6102"
-date: 2025-09-10
+date: 2025-09-24
 episode: 227
 podhome_id: "48dac3fa-d43a-4606-8c3a-ca936ba2f5e7"
 btc_price_usd: "113,661"

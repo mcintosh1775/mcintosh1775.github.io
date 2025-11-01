@@ -1,18 +1,16 @@
 ---
-title: "Bitcoin Myths"
-date: 2025-09-22
+title: "Start of the Bear Market?!"
+date: 2025-10-23
 episode: 230
 podhome_id: "b8493b44-f80e-40cf-bb56-705a344af465"
-btc_price_usd: "114,050" 
-btc_price_eur: "97,400"
-block_height: "914,162"
+btc_price_usd: "107,640"
+btc_price_eur: "92,700"
+block_height: "920,290"
 music_credits:
-  - title: "Play Guitar by Doerfel Family Bluegrass"
-    link: "https://www.doerfelverse.com"
+  - title: "The Jetsons"
+    link: "https://wavlake.com/joemartin"
 tags: ["bitcoin", "podcast"]
 ---
-In episode 225 of "Satoshi's Plebs," hosts McIntosh and Kenshin debunk eight Bitcoin myths: that it has no intrinsic value, is mainly used by criminals, wastes energy, is too volatile for currency use, will be banned by governments, has slow/expensive transactions, will be replaced by better cryptocurrencies, and is a Ponzi scheme.
+In episode 230 of "Satoshi's Plebs", McIntosh and Kenshin tackle the question on everyone's mind: is this the start of a bear market? With Bitcoin consolidating around $107k and noise on the internet getting louder about a potential downturn, the hosts dive into price action, market sentiment, and what indicators might signal a true bear market versus healthy consolidation.
 
-They counter each myth with evidence about Bitcoin's utility, legitimate usage (99%+ of transactions), renewable energy incentives, decreasing volatility over time, decentralized resistance to bans, Lightning Network capabilities, unique leaderless structure, and survival through multiple market cycles.
-
-Stick around to the very end for the V4V track, “Play Guitar” by Doerfel Family Bluegrass.
+Stick around to the very end for the V4V track, “The Jetsons” by Joe Martin.

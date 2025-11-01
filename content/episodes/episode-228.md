@@ -1,8 +1,8 @@
 ---
 title: "Bitcoin Myths"
 date: 2025-09-10
-episode: 225
-podhome_id: "d2284444-343c-4b9d-aa7c-7877c40fb495"
+episode: 228
+podhome_id: "26f6755f-6566-48bf-8b6a-aa43ece4ff42"
 btc_price_usd: "114,050" 
 btc_price_eur: "97,400"
 block_height: "914,162"

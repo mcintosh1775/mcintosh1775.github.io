@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Myths"
+title: "What We Hate About Bitcoin"
 date: 2025-09-17
 episode: 226
 podhome_id: "e0cbd63b-2df9-4a70-8502-d8404b852f7f"

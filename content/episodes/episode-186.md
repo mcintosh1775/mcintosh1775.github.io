@@ -15,3 +15,5 @@ music_credits:
     link: "https://filmmusic.io/standard-license"
 tags: ["bitcoin", "podcast"]
 ---
+This week we celebrate Thanksgiving in America - a time to be thankful. At Satoshi's Plebs podcast we are thankful for Bitcoin and what it has done in our lives. We take a few minutes to talk about that as well as the news, notes and software updates.
+

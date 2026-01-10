@@ -2,7 +2,7 @@
 title: "Were We Wrong About Bitcoin in 2025?"
 date: 2025-12-23
 episode: 238
-podhome_id: "=9d472057-ce51-42ca-80a9-0c5ae13b2b97"
+podhome_id: "9d472057-ce51-42ca-80a9-0c5ae13b2b97"
 btc_price_usd: "87,770"
 btc_price_eur: "74,450"
 block_height: "929,162"

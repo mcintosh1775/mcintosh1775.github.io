@@ -396,22 +396,36 @@ def normalize_music_credits(credits):
     for credit in credits:
         title = credit.get("title", "")
         link = credit.get("link", "")
+        def first_url(text):
+            match = re.search(r"\]\((https?://[^)]+)\)", text)
+            if match:
+                return match.group(1)
+            match = re.search(r"https?://[^\s)]+", text)
+            return match.group(0) if match else ""
+
         if "Music:" in title or "music:" in title:
-            chunks = re.split(r"(?=Music:)", title)
-            song_found = False
-            for chunk in chunks:
-                chunk = chunk.strip()
-                if not chunk:
-                    continue
-                match = re.search(r"Music:\s*([^\n]+)", chunk)
-                if not match:
-                    continue
+            url_match = first_url(title)
+            preamble = title.split("Music:", 1)[0]
+            preamble_lines = [line.strip() for line in preamble.splitlines() if line.strip()]
+            if preamble_lines:
+                pre_title = preamble_lines[0]
+                if not pre_title.lower().startswith("link:"):
+                    normalized.append(
+                        {"title": pre_title, "link": url_match}
+                    )
+            for match in re.finditer(r"Music:\s*([^\n]+)(.*?)(?=\nMusic:|$)", title, re.IGNORECASE | re.DOTALL):
                 song_title = match.group(1).strip()
-                url_match = re.search(r"https?://\\S+", chunk)
-                song_link = url_match.group(0) if url_match else ""
+                chunk = match.group(2)
+                song_link = first_url(chunk)
                 normalized.append({"title": song_title, "link": song_link})
-                song_found = True
-            if song_found:
+            if normalized:
+                continue
+        if "Link:" in title or "link:" in title:
+            lead = re.split(r"\bLink:\b", title, maxsplit=1, flags=re.IGNORECASE)[0]
+            lead = lead.strip()
+            if lead:
+                lead_link = first_url(title)
+                normalized.append({"title": lead, "link": lead_link})
                 continue
         normalized.append({"title": title, "link": link})
     return normalized

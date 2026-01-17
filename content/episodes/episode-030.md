@@ -4,7 +4,10 @@ date: 2022-03-10
 episode: 30
 podhome_id: "fbc95ed3-49bd-41d9-8657-d6896e7353d8"
 music_credits:
+  - title: "Protofunk by Kevin MacLeod"
+    link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
+    link: "https://filmmusic.io/song/7612-ethernight-club"
 tags: ["podcast"]
 ---
 It has been a week of news!! This week we  spent time covering the news. The beginnings of a regulatory framework in the United States will ultimately spur greater adoption and investment in cryptocurrency. What are the implications when a core developer suddenly walks away? And will this week's CPI news help or hurt the market?

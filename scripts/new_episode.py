@@ -391,6 +391,32 @@ def filter_music_credits(credits):
     return filtered
 
 
+def normalize_music_credits(credits):
+    normalized = []
+    for credit in credits:
+        title = credit.get("title", "")
+        link = credit.get("link", "")
+        if "Music:" in title or "music:" in title:
+            chunks = re.split(r"(?=Music:)", title)
+            song_found = False
+            for chunk in chunks:
+                chunk = chunk.strip()
+                if not chunk:
+                    continue
+                match = re.search(r"Music:\s*([^\n]+)", chunk)
+                if not match:
+                    continue
+                song_title = match.group(1).strip()
+                url_match = re.search(r"https?://\\S+", chunk)
+                song_link = url_match.group(0) if url_match else ""
+                normalized.append({"title": song_title, "link": song_link})
+                song_found = True
+            if song_found:
+                continue
+        normalized.append({"title": title, "link": link})
+    return normalized
+
+
 def extract_summary(description_text):
     lower = description_text.lower()
     index = lower.find(HEADER_BITCOIN)
@@ -641,6 +667,7 @@ def process_rss_episode(root, namespaces, episodes_dir, args, warn, requested_ep
                 ).replace(
                     "mcintosh@genwealthcrypto.com", "mcintosh@satoshis-plebs.com"
                 )
+        music_credits = normalize_music_credits(music_credits)
         music_credits = filter_music_credits(music_credits)
     if not summary:
         summary = "Summary not available for this episode."

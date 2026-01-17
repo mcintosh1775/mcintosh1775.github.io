@@ -82,3 +82,23 @@ Missing data handling (RSS mode):
 - Missing transcript results in a note added to the episode body:
   `Transcript not available for this episode.`
 - Optional fields are omitted when missing: block height, BTC prices, music credits.
+
+## Preferred show notes format
+Use this structure for consistent parsing and rendering:
+```
+<EPISODE NUMBER> - <Episode Title>
+
+<Short summary paragraph. You can include links inline.>
+
+Recorded: YYYY-MM-DD
+
+Bitcoin Price at Time of Recording
+Jan 6th, 2026: $91,180 USD | 78,000 Euro
+
+Block Height at Time of Recording
+928,310
+
+Music Credits
+Song Title by Artist
+Another Song by Artist
+```

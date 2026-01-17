@@ -3,7 +3,7 @@ title: "Is Regulation Incoming?"
 date: 2023-08-28
 episode: 124
 podhome_id: "2345b972-d3ce-4f00-91e7-6a7ccb4d786e"
-btc_price_usd: "26,069.41"
+btc_price_usd: "26,069"
 block_height: "805,094"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

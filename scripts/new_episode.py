@@ -115,6 +115,15 @@ def normalize_transcript_text(text):
     return "\n".join(lines).strip()
 
 
+def strip_footer_block(text):
+    marker = "podcasting 2.0 apps available at"
+    lower = text.lower()
+    index = lower.find(marker)
+    if index == -1:
+        return text.strip()
+    return text[:index].rstrip()
+
+
 def fetch_url(url):
     request = urllib.request.Request(
         url,
@@ -588,6 +597,7 @@ def process_rss_episode(root, namespaces, episodes_dir, args, warn, requested_ep
     music_credits = rss_data["music_credits"] or []
     args.podhome_id = rss_data["guid"] or ""
     summary = rss_data["summary"] or ""
+    summary = strip_footer_block(summary)
     summary = summary.replace(
         "mcintosh@gen-btc.com", "mcintosh@satoshis-plebs.com"
     )

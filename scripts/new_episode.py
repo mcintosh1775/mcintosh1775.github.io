@@ -367,6 +367,30 @@ def extract_music_credits(description_html):
     return credits
 
 
+def filter_music_credits(credits):
+    filtered = []
+    footer_markers = [
+        "podcasting 2.0 apps available",
+        "value4value",
+        "i can be reached by email",
+        "mastodon handle",
+        "nostr npub",
+        "twitter",
+        "contact",
+        "satoshis-plebs.com",
+    ]
+    for credit in credits:
+        title = credit.get("title", "")
+        link = credit.get("link", "")
+        lower = title.lower()
+        if any(marker in lower for marker in footer_markers):
+            continue
+        if link and link.lower().startswith("mailto:"):
+            continue
+        filtered.append(credit)
+    return filtered
+
+
 def extract_summary(description_text):
     lower = description_text.lower()
     index = lower.find(HEADER_BITCOIN)
@@ -617,6 +641,7 @@ def process_rss_episode(root, namespaces, episodes_dir, args, warn, requested_ep
                 ).replace(
                     "mcintosh@genwealthcrypto.com", "mcintosh@satoshis-plebs.com"
                 )
+        music_credits = filter_music_credits(music_credits)
     if not summary:
         summary = "Summary not available for this episode."
     if not transcript:

@@ -22,12 +22,6 @@ Artist website: https://incompetech.com
 
 Website"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
-  - title: "[https://satoshis-plebs.com](https://satoshis-plebs.com)"
-    link: "https://satoshis-plebs.com"
-  - title: "Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)"
-    link: "http://podcastapps.com"
-  - title: "I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
-    link: "mailto:mcintosh@satoshis-plebs.com"
 tags: ["podcast"]
 ---
 It has been a week of news!! This week we  spent time covering the news. The beginnings of a regulatory framework in the United States will ultimately spur greater adoption and investment in cryptocurrency. What are the implications when a core developer suddenly walks away? And will this week's CPI news help or hurt the market?

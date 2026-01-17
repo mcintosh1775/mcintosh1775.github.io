@@ -20,6 +20,10 @@ LEGACY_PRICE_RE = re.compile(
     r"weekly close btc.*?:\s*\$?([\d,]+(?:\.\d+)?)",
     re.IGNORECASE,
 )
+LEGACY_BTC_WEEKLY_RE = re.compile(
+    r"btc\s+weekly\s+close.*?:\s*\$?([\d,]+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
 SUMMARY_TITLE_RE = re.compile(r"^(\d+)\s*-\s*(.+)$")
 HEADER_BITCOIN = "bitcoin price at time of recording"
 HEADER_BLOCK = "block height at time of recording"
@@ -566,6 +570,12 @@ def parse_rss_item(item, ns):
             if legacy_match:
                 btc_usd = legacy_match.group(1)
                 break
+        if not btc_usd:
+            for line in description_text.splitlines():
+                legacy_match = LEGACY_BTC_WEEKLY_RE.search(line)
+                if legacy_match:
+                    btc_usd = legacy_match.group(1)
+                    break
         if not btc_usd:
             warnings.append("No bitcoin price found")
 

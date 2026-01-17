@@ -3,6 +3,7 @@ title: "Special Report on Argentina Election"
 date: 2023-10-23
 episode: 139
 podhome_id: "d4a398a5-0abb-436b-afc9-cf9644da6b56"
+btc_price_usd: "29,918"
 block_height: "813,416"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

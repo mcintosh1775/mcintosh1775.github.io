@@ -3,6 +3,7 @@ title: "Is the Bull Market Back?"
 date: 2023-10-29
 episode: 140
 podhome_id: "cfeda17d-734f-4215-8be7-51a4c099cf99"
+btc_price_usd: "33,909"
 block_height: "814,273"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

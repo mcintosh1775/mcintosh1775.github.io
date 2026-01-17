@@ -3,6 +3,7 @@ title: "Keynesian Fallacy"
 date: 2023-09-25
 episode: 132
 podhome_id: "d5600ec1-1c56-4eb6-a53d-0bc6541c740b"
+btc_price_usd: "26,221"
 block_height: "809,236"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

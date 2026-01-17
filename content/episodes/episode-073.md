@@ -4,19 +4,9 @@ date: 2022-09-19
 episode: 73
 podhome_id: "4994893f-98b3-444a-ab96-df7b376b5d36"
 music_credits:
-  - title: "Rock Guitar Intro 07 by TaigaSoundProd
-
-[Link: https://filmmusic.io/song/8342-rock-guitar-intro-07](about:blank)
-
-[License: https://filmmusic.io/standard-license](about:blank)
-
-Funky Life by WinnieTheMoog
-
-Link: [https://filmmusic.io/song/6040-funky-life](https://filmmusic.io/song/6040-funky-life)
-
-License: https://filmmusic.io/standard-license
-
-Website"
+  - title: "Rock Guitar Intro 07 by TaigaSoundProd"
+    link: "https://filmmusic.io/song/8342-rock-guitar-intro-07"
+  - title: "Funky Life by WinnieTheMoog"
     link: "https://filmmusic.io/song/6040-funky-life"
 tags: ["podcast"]
 ---

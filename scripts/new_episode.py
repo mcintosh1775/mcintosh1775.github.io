@@ -397,11 +397,22 @@ def normalize_music_credits(credits):
         title = credit.get("title", "")
         link = credit.get("link", "")
         def first_url(text):
+            match = re.search(r"\[(https?://[^\]]+)\]\(about:blank\)", text)
+            if match:
+                return match.group(1)
+            match = re.search(r"\[Link:\s*(https?://[^\]]+)\]\(about:blank\)", text, re.IGNORECASE)
+            if match:
+                return match.group(1)
             match = re.search(r"\]\((https?://[^)]+)\)", text)
             if match:
                 return match.group(1)
             match = re.search(r"https?://[^\s)]+", text)
-            return match.group(0) if match else ""
+            if match:
+                url = match.group(0)
+                if "](about:blank" in url:
+                    url = url.split("](", 1)[0]
+                return url
+            return ""
 
         if "Music:" in title or "music:" in title:
             url_match = first_url(title)
@@ -420,6 +431,52 @@ def normalize_music_credits(credits):
                 normalized.append({"title": song_title, "link": song_link})
             if normalized:
                 continue
+        lower = title.lower()
+        if "link:" in lower or "license" in lower:
+            lines = [line.strip() for line in title.splitlines() if line.strip()]
+            current = None
+            for line in lines:
+                line_lower = line.lower().lstrip("[")
+                if line_lower.startswith("link:"):
+                    url = first_url(line)
+                    if current and url:
+                        current["link"] = url
+                    continue
+                if line_lower.startswith("license:") or line_lower.startswith("license ("):
+                    continue
+                if line_lower.startswith("the following music was used"):
+                    continue
+                if line_lower in ("website", "artist website"):
+                    continue
+                if line_lower.startswith("http://") or line_lower.startswith("https://"):
+                    if current and not current.get("link"):
+                        current["link"] = line
+                    continue
+                if current:
+                    normalized.append(current)
+                current = {"title": line, "link": ""}
+            if current:
+                normalized.append(current)
+            if normalized:
+                continue
+        if "Link:" in title or "link:" in title:
+            if title.count("Link:") + title.count("link:") > 1:
+                parts = re.split(r"\bLink:\b", title, flags=re.IGNORECASE)
+                base = parts[0].strip()
+                if base:
+                    first_link = first_url(title)
+                    normalized.append({"title": base, "link": first_link})
+                for chunk in parts[1:]:
+                    chunk = chunk.strip()
+                    if not chunk:
+                        continue
+                    chunk_title = chunk.split("License:", 1)[0].strip()
+                    if not chunk_title:
+                        continue
+                    chunk_link = first_url(chunk)
+                    normalized.append({"title": chunk_title, "link": chunk_link})
+                if normalized:
+                    continue
         if "Link:" in title or "link:" in title:
             lead = re.split(r"\bLink:\b", title, maxsplit=1, flags=re.IGNORECASE)[0]
             lead = lead.strip()

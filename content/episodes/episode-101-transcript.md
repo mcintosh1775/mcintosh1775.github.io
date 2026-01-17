@@ -5,6 +5,7 @@ _build:
   list: never
   render: always
 ---
+```text
 1
 00:00:00,000 --> 00:00:06,000
 Hey SatStackers, today is March 27th and this is episode 101 of Generation Bitcoin.
@@ -3788,5 +3789,4 @@ Go out and make it a great week.
 946
 01:14:43,120 --> 01:14:45,120
 I'll talk to you soon.
-
-
+```

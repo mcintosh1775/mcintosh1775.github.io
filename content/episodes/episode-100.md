@@ -5,30 +5,10 @@ episode: 100
 podhome_id: "cd196011-1571-413c-a6e4-020f2c6d5cd5"
 block_height: "781,463"
 music_credits:
-  - title: "Protofunk by Kevin MacLeod
-
-Link: [https://incompetech.filmmusic.io/song/4247-protofunk](https://incompetech.filmmusic.io/song/4247-protofunk)
-
-License: [https://filmmusic.io/standard-license](https://filmmusic.io/standard-license)
-
-The following music was used for this media project:
-
-Music: Ethernight Club by Kevin MacLeod
-
-Free download: https://filmmusic.io/song/7612-ethernight-club
-
-License (CC BY 4.0): https://filmmusic.io/standard-license
-
-Artist website: https://incompetech.com
-
-Website"
+  - title: "Protofunk by Kevin MacLeod"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
-  - title: "[https://satoshis-plebs.com](https://satoshis-plebs.com)"
-    link: "https://satoshis-plebs.com"
-  - title: "Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)"
-    link: "http://podcastapps.com"
-  - title: "I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
-    link: "mailto:mcintosh@satoshis-plebs.com"
+  - title: "Ethernight Club by Kevin MacLeod"
+    link: "https://filmmusic.io/song/7612-ethernight-club"
 tags: ["podcast"]
 ---
 What is Secessio Plebis and how does it relate to bitcoin? What can we learn from the Roman Plebeians? The banking crisis and economic breakdown of the worlds major economic powerhouses seems to be coming to a climax. What can YOU DO abut it? Maybe it's time to begin your personal Secessio Plebis.
@@ -64,42 +44,5 @@ Bonus:
 [Feds Announce Coordinate Daily Dollar Swap Lines](https://www.zerohedge.com/markets/fed-panics-announces-coordinated-daily-us-dollar-swap-lines-ease-banking-crisis)
 
 Block Height at time of recording:  781,463
-
-Podcasting 2.0 Apps Available at [http://newpodcastapps.com/](http://newpodcastapps.com/) and Value4Value information page available here: [https://value4value.info/](https://value4value.info/)
-
-I can be reached by email at [mcintosh@satoshis-plebs.com ](mailto:mcintosh@satoshis-plebs.com)and on twitter at @McIntoshFinTech. My mastodon handle is @mcintosh@podcastindex.social. I'm also on matrix at @mcintosh1775:matrix.org. Looking forward to hearing from you!
-
-Website
-
-[https://gen-btc.com](https://gen-btc.com)
-
-Music Credits
-
-Protofunk by Kevin MacLeod
-
-Link: [https://incompetech.filmmusic.io/song/4247-protofunk](https://incompetech.filmmusic.io/song/4247-protofunk)
-
-License: [https://filmmusic.io/standard-license](https://filmmusic.io/standard-license)
-
-The following music was used for this media project:
-
-Music: Ethernight Club by Kevin MacLeod
-
-Free download: https://filmmusic.io/song/7612-ethernight-club
-
-License (CC BY 4.0): https://filmmusic.io/standard-license
-
-Artist website: https://incompetech.com
-
-Website
-
-
-[https://satoshis-plebs.com](https://satoshis-plebs.com)
-
-
-Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)
-
-
-I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!
 
 Transcript not available for this episode.

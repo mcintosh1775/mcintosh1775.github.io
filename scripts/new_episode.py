@@ -115,6 +115,13 @@ def normalize_transcript_text(text):
     return "\n".join(lines).strip()
 
 
+def normalize_html_transcript(text):
+    cleaned = html_to_text(text)
+    cleaned = re.sub(r"([A-Za-z])([0-9]{2}:[0-9]{2}:[0-9]{2})", r"\1 \2", cleaned)
+    cleaned = re.sub(r"([0-9]{2}:[0-9]{2}:[0-9]{2})([A-Za-z])", r"\1 \2", cleaned)
+    return normalize_transcript_text(cleaned)
+
+
 def strip_footer_block(text):
     marker = "podcasting 2.0 apps available at"
     lower = text.lower()
@@ -607,21 +614,12 @@ def parse_rss_item(item, ns):
     transcript_url = ""
     transcript_type = ""
     for element in transcript_elements:
-        rel = element.get("rel")
         content_type = element.get("type")
         url = element.get("url")
-        if rel == "transcript" and content_type == "text/html" and url:
+        if content_type in ("application/srt", "text/srt") and url:
             transcript_url = url
-            transcript_type = "text/html"
+            transcript_type = "srt"
             break
-    if not transcript_url:
-        for element in transcript_elements:
-            content_type = element.get("type")
-            url = element.get("url")
-            if content_type in ("application/srt", "text/srt") and url:
-                transcript_url = url
-                transcript_type = "srt"
-                break
     if not transcript_url:
         for element in transcript_elements:
             content_type = element.get("type")
@@ -629,6 +627,15 @@ def parse_rss_item(item, ns):
             if content_type in ("text/vtt", "application/vtt") and url:
                 transcript_url = url
                 transcript_type = "vtt"
+                break
+    if not transcript_url:
+        for element in transcript_elements:
+            rel = element.get("rel")
+            content_type = element.get("type")
+            url = element.get("url")
+            if rel == "transcript" and content_type == "text/html" and url:
+                transcript_url = url
+                transcript_type = "text/html"
                 break
     if not transcript_url:
         pass
@@ -684,7 +691,7 @@ def process_rss_episode(root, namespaces, episodes_dir, args, warn, requested_ep
         try:
             transcript_raw = fetch_url(transcript_url)
             if rss_data["transcript_type"] == "text/html":
-                transcript_text = html_to_text(transcript_raw)
+                transcript_text = normalize_html_transcript(transcript_raw)
             else:
                 transcript_text = normalize_transcript_text(transcript_raw)
             if transcript_text:

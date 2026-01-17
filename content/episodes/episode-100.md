@@ -27,8 +27,8 @@ Website"
     link: "https://satoshis-plebs.com"
   - title: "Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)"
     link: "http://podcastapps.com"
-  - title: "I can be reached by email at [mcintosh@gen-btc.com](mailto:mcintosh@gen-btc.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
-    link: "mailto:mcintosh@gen-btc.com"
+  - title: "I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
+    link: "mailto:mcintosh@satoshis-plebs.com"
 tags: ["podcast"]
 ---
 What is Secessio Plebis and how does it relate to bitcoin? What can we learn from the Roman Plebeians? The banking crisis and economic breakdown of the worlds major economic powerhouses seems to be coming to a climax. What can YOU DO abut it? Maybe it's time to begin your personal Secessio Plebis.

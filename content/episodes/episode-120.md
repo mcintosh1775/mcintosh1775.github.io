@@ -28,8 +28,8 @@ Website"
     link: "https://satoshis-plebs.com"
   - title: "Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)"
     link: "http://podcastapps.com"
-  - title: "I can be reached by email at [mcintosh@gen-btc.com](mailto:mcintosh@gen-btc.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
-    link: "mailto:mcintosh@gen-btc.com"
+  - title: "I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
+    link: "mailto:mcintosh@satoshis-plebs.com"
 tags: ["podcast"]
 ---
 The fiat world creates many issues for both citizens and nations. Debt and inflation, censorship and financial control, a global reserve currency that creates unfair advantages among others. In this episode we explore eight ways that Bitcoin cuts the Gordian Knot created by fiat to free both the individual and potentially even nations.
@@ -60,7 +60,7 @@ News and Links
 
 Podcasting 2.0 Apps Available at [http://newpodcastapps.com/](http://newpodcastapps.com/) and Value4Value information page available here: [https://value4value.info/](https://value4value.info/)
 
-I can be reached by email at [mcintosh@gen-btc.com ](mailto:mcintosh@gen-btc.com)and on twitter at @McIntoshFinTech. My mastodon handle is @mcintosh@podcastindex.social. I'm also on matrix at @mcintosh1775:matrix.org. Looking forward to hearing from you!
+I can be reached by email at [mcintosh@satoshis-plebs.com ](mailto:mcintosh@satoshis-plebs.com)and on twitter at @McIntoshFinTech. My mastodon handle is @mcintosh@podcastindex.social. I'm also on matrix at @mcintosh1775:matrix.org. Looking forward to hearing from you!
 
 Website
 
@@ -93,6 +93,6 @@ Website
 Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)
 
 
-I can be reached by email at [mcintosh@gen-btc.com](mailto:mcintosh@gen-btc.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!
+I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!
 
 Transcript not available for this episode.

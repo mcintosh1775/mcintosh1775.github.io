@@ -5,20 +5,20 @@ The Satoshis Plebs Website using hugo templating..
 Create a new episode and transcript using one of the modes below. Output files are written to `content/episodes/`.
 
 Directory structure:
-- `content/episodes/episode-<N>.md` (episode page)
+- `content/episodes/episode-<NNN>.md` (episode page, zero-padded)
 - `content/episodes/episode-<N>-transcript.md` (transcript page, when available)
 - `scripts/new_episode.py` (generator)
 
 Options overview:
 - Manual mode: `--title --date --podhome-id --block-height --btc-usd --btc-eur --summary-file --transcript-file --music-credits-file`
 - Summary blob mode: `--podhome-id --summary-blob-file --transcript-file`
-- RSS mode: `--from-rss --feed-url [--episode N]` (auto-fetches transcript when available)
+- RSS mode: `--from-rss --feed-url [--episode N] [--episodes 1-25]` (auto-fetches transcript when available)
 - Shared: `--episode N` (override number), `--dry-run`, `--force`
 
 Required flags by mode:
 - Manual mode: `--title --date --podhome-id --block-height --btc-usd --btc-eur --summary-file --transcript-file --music-credits-file`
 - Summary blob mode: `--podhome-id --summary-blob-file --transcript-file`
-- RSS mode: `--from-rss --feed-url`
+- RSS mode: `--from-rss --feed-url` (optionally add `--episode N` or `--episodes 1-25`)
 
 Summary blob format example:
 ```

@@ -2,7 +2,23 @@
 The Satoshis Plebs Website using hugo templating..
 
 ## Weekly episode creation
-Create a new episode and transcript using one of the modes below.
+Create a new episode and transcript using one of the modes below. Output files are written to `content/episodes/`.
+
+Directory structure:
+- `content/episodes/episode-<N>.md` (episode page)
+- `content/episodes/episode-<N>-transcript.md` (transcript page, when available)
+- `scripts/new_episode.py` (generator)
+
+Options overview:
+- Manual mode: `--title --date --podhome-id --block-height --btc-usd --btc-eur --summary-file --transcript-file --music-credits-file`
+- Summary blob mode: `--podhome-id --summary-blob-file --transcript-file`
+- RSS mode: `--from-rss --feed-url [--episode N]` (auto-fetches transcript when available)
+- Shared: `--episode N` (override number), `--dry-run`, `--force`
+
+Required flags by mode:
+- Manual mode: `--title --date --podhome-id --block-height --btc-usd --btc-eur --summary-file --transcript-file --music-credits-file`
+- Summary blob mode: `--podhome-id --summary-blob-file --transcript-file`
+- RSS mode: `--from-rss --feed-url`
 
 Summary blob format example:
 ```
@@ -56,3 +72,13 @@ Optional flags:
 
 Recommended show notes line for recording date:
 - `Recorded: YYYY-MM-DD`
+
+Output behavior:
+- Always creates the episode page.
+- Creates a transcript page only when a transcript is available.
+
+Missing data handling (RSS mode):
+- Prints warnings like `[WARN] No block height found for episode 182`.
+- Missing transcript results in a note added to the episode body:
+  `Transcript not available for this episode.`
+- Optional fields are omitted when missing: block height, BTC prices, music credits.

@@ -7,12 +7,17 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import date as date_today
 
 
 EPISODE_RE = re.compile(r"^episode-(\d+)\.md$")
 RECORDING_DATE_RE = re.compile(r"Recorded:\s*(\d{4}-\d{2}-\d{2})")
 DATE_LINE_RE = re.compile(
-    r"([A-Za-z]+)\s+(\d{1,2})(st|nd|rd|th)?,\s*(\d{4})\s*:\s*\$?([\d,]+)\s*USD\s*\|\s*([\d,]+)\s*(?:Euro|EUR)",
+    r"([A-Za-z]+)\s+(\d{1,2})(st|nd|rd|th)?,\s*(\d{4})\s*:",
+    re.IGNORECASE,
+)
+LEGACY_PRICE_RE = re.compile(
+    r"weekly close btc.*?:\s*\$?([\d,]+(?:\.\d+)?)",
     re.IGNORECASE,
 )
 SUMMARY_TITLE_RE = re.compile(r"^(\d+)\s*-\s*(.+)$")
@@ -86,6 +91,12 @@ def strip_html(text):
     text = re.sub(r"<\s*p\s*>", "", text, flags=re.IGNORECASE)
     text = re.sub(r"<\s*/div\s*>", "\n", text, flags=re.IGNORECASE)
     text = re.sub(r"<\s*div[^>]*>", "", text, flags=re.IGNORECASE)
+    text = re.sub(
+        r'<\s*a[^>]*href="([^"]+)"[^>]*>(.*?)</a>',
+        lambda match: f"[{strip_html(match.group(2))}]({match.group(1)})",
+        text,
+        flags=re.IGNORECASE,
+    )
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
@@ -95,6 +106,12 @@ def strip_html(text):
 def html_to_text(text):
     stripped = strip_html(text)
     lines = [line.rstrip() for line in stripped.split("\n")]
+    return "\n".join(lines).strip()
+
+
+def normalize_transcript_text(text):
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    lines = [line.rstrip() for line in text.split("\n")]
     return "\n".join(lines).strip()
 
 
@@ -144,11 +161,17 @@ def parse_summary_blob(path):
             if not month:
                 raise ValueError(f"unknown month name: {match.group(1)}")
             date = f"{year:04d}-{month:02d}-{day:02d}"
-            btc_usd = match.group(5)
-            btc_eur = match.group(6)
+            usd_match = re.search(r"\$?([\d,]+)\s*USD", line, re.IGNORECASE)
+            eur_match = re.search(r"([\d,]+)\s*(?:Euro|EUR)", line, re.IGNORECASE)
+            if usd_match:
+                btc_usd = usd_match.group(1)
+            if eur_match:
+                btc_eur = eur_match.group(1)
             break
     if not date:
         raise ValueError("Bitcoin price line not found in summary blob")
+    if not (btc_usd and btc_eur):
+        raise ValueError("Bitcoin price line must include USD and EUR in summary blob")
 
     block_height = None
     block_header_found = False
@@ -309,7 +332,10 @@ def extract_summary(description_text):
 def parse_rss_item(item, ns):
     itunes_episode = item.findtext("itunes:episode", namespaces=ns)
     podcast_episode = item.findtext("podcast:episode", namespaces=ns)
-    episode_number = parse_episode_number(itunes_episode) or parse_episode_number(podcast_episode)
+    warnings = []
+    episode_number = parse_episode_number(itunes_episode) or parse_episode_number(
+        podcast_episode
+    )
 
     raw_title = (
         item.findtext("itunes:title", namespaces=ns)
@@ -321,11 +347,11 @@ def parse_rss_item(item, ns):
     if episode_number is None:
         episode_number = parse_episode_number(raw_title)
     if episode_number is None:
-        raise ValueError("Could not determine episode number from RSS item")
+        warnings.append("No episode number found in RSS item")
 
     guid = (item.findtext("guid") or "").strip()
     if not guid:
-        raise ValueError("RSS item guid is missing")
+        warnings.append("No guid found in RSS item")
 
     description_html = item.findtext("description") or ""
     description_text = html_to_text(description_html)
@@ -333,7 +359,14 @@ def parse_rss_item(item, ns):
     recorded_match = RECORDING_DATE_RE.search(description_text)
     recorded_date = recorded_match.group(1) if recorded_match else None
 
-    price_match = DATE_LINE_RE.search(description_text)
+    price_match = None
+    price_line = None
+    for line in description_text.splitlines():
+        match = DATE_LINE_RE.search(line)
+        if match:
+            price_match = match
+            price_line = line
+            break
     date_from_price = None
     btc_usd = None
     btc_eur = None
@@ -343,10 +376,24 @@ def parse_rss_item(item, ns):
         year = int(price_match.group(4))
         month = MONTHS.get(month_name)
         if not month:
-            raise ValueError(f"unknown month name: {price_match.group(1)}")
-        date_from_price = f"{year:04d}-{month:02d}-{day:02d}"
-        btc_usd = price_match.group(5)
-        btc_eur = price_match.group(6)
+            warnings.append(f"Unknown month name: {price_match.group(1)}")
+        else:
+            date_from_price = f"{year:04d}-{month:02d}-{day:02d}"
+            if price_line:
+                usd_match = re.search(r"\$?([\d,]+)\s*USD", price_line, re.IGNORECASE)
+                eur_match = re.search(r"([\d,]+)\s*(?:Euro|EUR)", price_line, re.IGNORECASE)
+                if usd_match:
+                    btc_usd = usd_match.group(1)
+                if eur_match:
+                    btc_eur = eur_match.group(1)
+    else:
+        for line in description_text.splitlines():
+            legacy_match = LEGACY_PRICE_RE.search(line)
+            if legacy_match:
+                btc_usd = legacy_match.group(1)
+                break
+        if not btc_usd:
+            warnings.append("No bitcoin price found")
 
     pubdate_dt = parse_pubdate(item)
     pubdate = pubdate_dt.date().isoformat() if pubdate_dt else None
@@ -358,16 +405,20 @@ def parse_rss_item(item, ns):
     elif pubdate:
         date = pubdate
     else:
-        raise ValueError("Unable to determine episode date")
-
-    if not btc_usd or not btc_eur:
-        raise ValueError("Bitcoin price line not found in description")
+        date = None
 
     block_height = None
     block_header_found = False
     for line in description_text.splitlines():
-        if normalize_header(line) == HEADER_BLOCK:
+        lowered = line.lower()
+        if normalize_header(line) == HEADER_BLOCK or (
+            "block height" in lowered and "recording" in lowered
+        ):
             block_header_found = True
+            inline_match = re.search(r"([\d,]+)", line)
+            if inline_match:
+                block_height = inline_match.group(1)
+                break
             continue
         if block_header_found:
             candidate = line.strip()
@@ -375,27 +426,45 @@ def parse_rss_item(item, ns):
                 block_height = candidate
                 break
     if not block_height:
-        raise ValueError("Block height not found in description")
+        warnings.append("No block height found")
 
     music_credits = extract_music_credits(description_html)
     if not music_credits:
-        raise ValueError("Music credits not found in description")
+        warnings.append("No music credits found")
 
     summary = extract_summary(description_text)
     if not summary:
-        raise ValueError("Summary content not found in description")
+        warnings.append("No summary content found")
 
     transcript_elements = item.findall("podcast:transcript", namespaces=ns)
     transcript_url = ""
+    transcript_type = ""
     for element in transcript_elements:
         rel = element.get("rel")
         content_type = element.get("type")
         url = element.get("url")
         if rel == "transcript" and content_type == "text/html" and url:
             transcript_url = url
+            transcript_type = "text/html"
             break
     if not transcript_url:
-        raise ValueError("Transcript URL not found in RSS item")
+        for element in transcript_elements:
+            content_type = element.get("type")
+            url = element.get("url")
+            if content_type in ("application/srt", "text/srt") and url:
+                transcript_url = url
+                transcript_type = "srt"
+                break
+    if not transcript_url:
+        for element in transcript_elements:
+            content_type = element.get("type")
+            url = element.get("url")
+            if content_type in ("text/vtt", "application/vtt") and url:
+                transcript_url = url
+                transcript_type = "vtt"
+                break
+    if not transcript_url:
+        pass
 
     return {
         "episode_number": episode_number,
@@ -408,7 +477,9 @@ def parse_rss_item(item, ns):
         "music_credits": music_credits,
         "summary": summary,
         "transcript_url": transcript_url,
+        "transcript_type": transcript_type,
         "pubdate": pubdate,
+        "warnings": warnings,
     }
 
 
@@ -419,15 +490,19 @@ def build_episode_frontmatter(args, episode_number, music_credits):
         f"date: {args.date}",
         f"episode: {episode_number}",
         f'podhome_id: "{escape_yaml(args.podhome_id)}"',
-        f'btc_price_usd: "{escape_yaml(args.btc_usd)}"',
-        f'btc_price_eur: "{escape_yaml(args.btc_eur)}"',
-        f'block_height: "{escape_yaml(args.block_height)}"',
-        "music_credits:",
     ]
-    for credit in music_credits:
-        lines.append(f'  - title: "{escape_yaml(credit["title"])}"')
-        if credit["link"]:
-            lines.append(f'    link: "{escape_yaml(credit["link"])}"')
+    if args.btc_usd:
+        lines.append(f'btc_price_usd: "{escape_yaml(args.btc_usd)}"')
+    if args.btc_eur:
+        lines.append(f'btc_price_eur: "{escape_yaml(args.btc_eur)}"')
+    if args.block_height:
+        lines.append(f'block_height: "{escape_yaml(args.block_height)}"')
+    if music_credits:
+        lines.append("music_credits:")
+        for credit in music_credits:
+            lines.append(f'  - title: "{escape_yaml(credit["title"])}"')
+            if credit["link"]:
+                lines.append(f'    link: "{escape_yaml(credit["link"])}"')
     lines.append('tags: ["podcast"]')
     lines.append("---")
     return "\n".join(lines)
@@ -473,6 +548,13 @@ def main():
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
+    warn_messages = set()
+
+    def warn(message):
+        if message in warn_messages:
+            return
+        warn_messages.add(message)
+        print(message, file=sys.stderr)
 
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     episodes_dir = os.path.join(repo_root, "content", "episodes")
@@ -483,45 +565,99 @@ def main():
     if args.from_rss:
         if not args.feed_url:
             raise ValueError("--feed-url is required when using --from-rss")
+        feed_xml = ""
         try:
             feed_xml = fetch_url(args.feed_url)
         except Exception as exc:
-            raise ValueError(f"Failed to fetch RSS feed: {exc}") from exc
-        root = ET.fromstring(feed_xml)
+            warn(f"[WARN] Failed to fetch RSS feed: {exc}")
+            return 0
+        try:
+            root = ET.fromstring(feed_xml)
+        except ET.ParseError as exc:
+            warn(f"[WARN] Failed to parse RSS feed XML: {exc}")
+            return 0
         namespaces = {
             "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
             "podcast": "https://podcastindex.org/namespace/1.0",
         }
-        item = choose_item(root, namespaces, args.episode)
+        try:
+            item = choose_item(root, namespaces, args.episode)
+        except ValueError as exc:
+            warn(f"[WARN] {exc}")
+            return 0
         rss_data = parse_rss_item(item, namespaces)
-        if args.episode and rss_data["episode_number"] != args.episode:
-            raise ValueError("RSS item episode number does not match --episode")
+        for warning in rss_data["warnings"]:
+            if rss_data["episode_number"]:
+                warn(f"[WARN] {warning} for episode {rss_data['episode_number']}")
+            else:
+                warn(f"[WARN] {warning}")
+
+        episode_number = rss_data["episode_number"] or args.episode
+        if episode_number is None:
+            episode_number = next_episode_number(episodes_dir)
+            warn("[WARN] No episode number found; using next available number")
+
+        if args.episode and rss_data["episode_number"] and rss_data["episode_number"] != args.episode:
+            warn("[WARN] RSS item episode number does not match --episode")
 
         if rss_data["pubdate"] and rss_data["date"]:
             if rss_data["pubdate"][:4] != rss_data["date"][:4]:
-                print(
-                    "warning: recording date year differs from pubDate year",
-                    file=sys.stderr,
+                warn("[WARN] Recording date year differs from pubDate year")
+
+        transcript = None
+        transcript_url = rss_data["transcript_url"]
+        transcript_warned = False
+        if transcript_url:
+            try:
+                transcript_raw = fetch_url(transcript_url)
+                if rss_data["transcript_type"] == "text/html":
+                    transcript_text = html_to_text(transcript_raw)
+                else:
+                    transcript_text = normalize_transcript_text(transcript_raw)
+                if transcript_text:
+                    transcript = f"```text\n{transcript_text}\n```"
+                else:
+                    warn(
+                        f"[WARN] Transcript content is empty for episode {episode_number}"
+                    )
+                    transcript_warned = True
+            except Exception as exc:
+                warn(
+                    f"[WARN] Failed to fetch transcript for episode {episode_number}: {exc}"
                 )
+                transcript_warned = True
+        else:
+            warn(f"[WARN] No transcript available for episode {episode_number}")
+            transcript_warned = True
 
-        try:
-            transcript_html = fetch_url(rss_data["transcript_url"])
-        except Exception as exc:
-            raise ValueError(f"Failed to fetch transcript: {exc}") from exc
-        transcript_text = html_to_text(transcript_html)
-        if not transcript_text:
-            raise ValueError("Transcript content is empty")
+        if not transcript and not transcript_warned:
+            warn(f"[WARN] No transcript available for episode {episode_number}")
 
-        episode_number = rss_data["episode_number"]
-        args.title = rss_data["title"]
-        args.date = rss_data["date"]
+        if not rss_data["date"] and rss_data["pubdate"]:
+            warn(
+                f"[WARN] No recording date found for episode {episode_number}, using pubDate"
+            )
+
+        args.title = rss_data["title"] or ""
+        args.date = rss_data["date"] or rss_data["pubdate"] or ""
+        if not args.date:
+            args.date = date_today.today().isoformat()
+            warn(
+                f"[WARN] No recording date or pubDate found for episode {episode_number}, using today's date"
+            )
         args.btc_usd = rss_data["btc_usd"]
         args.btc_eur = rss_data["btc_eur"]
         args.block_height = rss_data["block_height"]
-        args.podhome_id = rss_data["guid"]
-        summary = rss_data["summary"]
-        music_credits = rss_data["music_credits"]
-        transcript = f"```text\n{transcript_text}\n```"
+        music_credits = rss_data["music_credits"] or []
+        args.podhome_id = rss_data["guid"] or ""
+        summary = rss_data["summary"] or ""
+        summary = summary.replace(
+            "mcintosh@gen-btc.com", "mcintosh@satoshis-plebs.com"
+        )
+        if not summary:
+            summary = "Summary not available for this episode."
+        if not transcript:
+            summary = (summary + "\n\nTranscript not available for this episode.").strip()
 
         if args.dry_run:
             item_title = (
@@ -545,6 +681,8 @@ def main():
             print(f"  block_height: {args.block_height}")
             print(f"  music_credits: {len(music_credits)}")
             print(f"  transcript_url: {rss_data['transcript_url']}")
+            if not transcript:
+                print("  transcript: none")
     else:
         if not args.podhome_id:
             raise ValueError("missing required argument: --podhome-id")
@@ -599,17 +737,31 @@ def main():
     transcript_frontmatter = build_transcript_frontmatter(episode_number)
 
     episode_content = f"{episode_frontmatter}\n{summary}\n"
-    transcript_content = f"{transcript_frontmatter}\n{transcript}\n"
+    transcript_content = None
+    if transcript:
+        transcript_content = f"{transcript_frontmatter}\n{transcript}\n"
 
     if args.dry_run:
         print(f"[dry-run] would write: {episode_path}")
-        print(f"[dry-run] would write: {transcript_path}")
+        if transcript_content:
+            print(f"[dry-run] would write: {transcript_path}")
+        else:
+            print(f"[dry-run] would skip: {transcript_path}")
+        return 0
+
+    if os.path.exists(episode_path) and not args.force:
+        warn(f"[WARN] Episode file already exists: {episode_path}")
+        return 0
+    if transcript_content and os.path.exists(transcript_path) and not args.force:
+        warn(f"[WARN] Transcript file already exists: {transcript_path}")
         return 0
 
     write_file(episode_path, episode_content, args.force)
-    write_file(transcript_path, transcript_content, args.force)
+    if transcript_content:
+        write_file(transcript_path, transcript_content, args.force)
     print(f"wrote {episode_path}")
-    print(f"wrote {transcript_path}")
+    if transcript_content:
+        print(f"wrote {transcript_path}")
     return 0
 
 

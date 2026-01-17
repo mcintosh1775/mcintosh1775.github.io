@@ -18,12 +18,6 @@ License: [https://filmmusic.io/standard-license](https://filmmusic.io/standard-l
 
 Website"
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
-  - title: "[https://satoshis-plebs.com](https://satoshis-plebs.com)"
-    link: "https://satoshis-plebs.com"
-  - title: "Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)"
-    link: "http://podcastapps.com"
-  - title: "I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!"
-    link: "mailto:mcintosh@satoshis-plebs.com"
 tags: ["podcast"]
 ---
 And what a year it was!! It's easy to forget what happened in the last year. The price of $BTC and crypto in general might not have exploded as we would probably all like but there was much that was newsworthy.
@@ -54,11 +48,5 @@ Website
 
 
 [https://satoshis-plebs.com](https://satoshis-plebs.com)
-
-
-Podcasting 2.0 Apps available at [http://podcastapps.com](http://podcastapps.com) and Value4Value information page available here: [https://value4value.info](https://value4value.info)
-
-
-I can be reached by email at [mcintosh@satoshis-plebs.com](mailto:mcintosh@satoshis-plebs.com) and on Twitter at @McIntoshFinTech. My mastodon handle is @[mcintosh@podcastindex.social](mailto:mcintosh@podcastindex.social). Looking forward to hearing from you!
 
 Transcript not available for this episode.

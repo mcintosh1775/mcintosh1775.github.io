@@ -3,6 +3,7 @@ title: "The Final Countdown"
 date: 2023-11-27
 episode: 147
 podhome_id: "7e2b384d-c91d-4b88-b541-017fe57094d8"
+btc_price_usd: "37,454"
 block_height: "818,653"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

@@ -3,6 +3,7 @@ title: "Are You in the Right Mindset?"
 date: 2023-11-10
 episode: 143
 podhome_id: "d962ced4-d4a8-41c4-8045-28a80a5f99f4"
+btc_price_usd: "36,702"
 block_height: "816,080"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

@@ -3,6 +3,7 @@ title: "A Conversation with Seth For Privacy"
 date: 2023-11-02
 episode: 141
 podhome_id: "b8cc97d5-158b-4679-82a4-ac66a9ec197e"
+btc_price_usd: "34,623"
 block_height: "814,874"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

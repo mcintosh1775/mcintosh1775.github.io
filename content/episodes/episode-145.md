@@ -3,6 +3,7 @@ title: "Did Argentina Win?"
 date: 2023-11-20
 episode: 145
 podhome_id: "d85a641e-73c0-47a6-a310-99fac2200760"
+btc_price_usd: "37,347"
 block_height: "817,565"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

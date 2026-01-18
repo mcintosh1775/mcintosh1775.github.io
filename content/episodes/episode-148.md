@@ -3,6 +3,7 @@ title: "The Last Episode"
 date: 2023-11-30
 episode: 148
 podhome_id: "947c80e9-25d9-4caf-aaf0-6bdbcc26f572"
+btc_price_usd: "37,739"
 block_height: "819,165"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

@@ -3,6 +3,7 @@ title: "I Want My Right to Mix!"
 date: 2023-11-13
 episode: 144
 podhome_id: "0ad9c725-b297-446e-b32a-12b5ce29ce18"
+btc_price_usd: "37,070"
 block_height: "816,555"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

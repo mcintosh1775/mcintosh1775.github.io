@@ -3,6 +3,7 @@ title: "News and Views"
 date: 2023-11-06
 episode: 142
 podhome_id: "7528f027-3824-46a5-a1ad-07c0db737b45"
+btc_price_usd: "35,044"
 block_height: "815,510"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

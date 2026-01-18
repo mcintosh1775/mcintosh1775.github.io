@@ -3,6 +3,7 @@ title: "Happy Thanksgiving and F2Pool Boo!!!"
 date: 2023-11-23
 episode: 146
 podhome_id: "e9bb51ce-0870-4cd3-8491-809bc6f5da02"
+btc_price_usd: "37,116"
 block_height: "818,129"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

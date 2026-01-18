@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1 (2026-01-10)
+- Simplified the episode generator to RSS-only mode.
+- Removed legacy/manual parsing paths in favor of structured RSS sections.
+
 ## v2.0 (2026-01-10)
 - Added RSS mode to `scripts/new_episode.py` with `--from-rss` and `--feed-url`.
 - RSS workflow auto-selects the latest (or specified) episode, extracts episode metadata, and fetches transcripts.

@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "26,352"
 tags: ["podcast"]
 ---
 Even with the current world events and collapsing economies based on Keynesian Fiat there can be hope. Today we explore how Bitcoin can be a lifeline and a dream enabler along with the news.

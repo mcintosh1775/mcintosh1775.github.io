@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "25,950.88"
 tags: ["podcast"]
 ---
 In today's episode we cover some of the ongoing technical projects to build a better listener experience and some good news that is unfolding in the new few weeks. So let's dive in!

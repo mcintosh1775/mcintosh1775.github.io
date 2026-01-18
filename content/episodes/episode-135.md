@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "27,762"
 tags: ["podcast"]
 ---
 It's been a while since we really covered the macro economic market. This week's episode will cover what is going on in the major economic markets of the world. Let's dive in and see where we are at!!

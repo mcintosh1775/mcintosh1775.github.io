@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "26,431.80"
 tags: ["podcast"]
 ---
 The bad news with the Argentine economy has a long history. This episode explores the back story to the current situation. Where can Argentina go from here? How are people coping? What (if anything) is being done to create a better future?

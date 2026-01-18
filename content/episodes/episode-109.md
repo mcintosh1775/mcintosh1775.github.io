@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "28,085.65"
 tags: ["podcast"]
 ---
 We all know the Bitcoin Blockchain is open. Being open provides a number of benefits. But is being an open blockchain a direct contradiction to privacy? Is privacy more important? Let's talk about it.

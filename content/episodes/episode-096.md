@@ -8,6 +8,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+block_height: "777,451"
 tags: ["podcast"]
 ---
 It seems all of Bitcoin Twitter and a good portion of the Bitcoin podcast / Youtube has been discussing "NFTs on Bitcoin". There is a lot of talk, a lot of noise and probably some misinformation. On today's episode we discuss what the fuss is about and how someone may choose to respond. So let's go!!

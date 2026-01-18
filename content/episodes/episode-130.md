@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "26,563"
 tags: ["podcast"]
 ---
 What are Bitcoin nodes and how do they run the Bitcoin network? This week's episode cover's the various nodes of the Bitcoin network, their roles  and how they work symbiotically to keep the money sound, the network secure and transactions flowing.

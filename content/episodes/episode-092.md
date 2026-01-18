@@ -8,6 +8,7 @@ music_credits:
     link: "https://filmmusic.io/song/8342-rock-guitar-intro-07"
   - title: "Funky Life by WinnieTheMoog"
     link: "https://filmmusic.io/song/6040-funky-life"
+block_height: "773,200"
 tags: ["podcast"]
 ---
 If you have been a Bitcoiner long enough this will happen to you ... someone you know will talk to you about some coin that they heard was "better than bitcoin". A better investment, a better store of a value, a replacement for bitcoin, whatever. Let's dive into why, odds are, that's just not true..

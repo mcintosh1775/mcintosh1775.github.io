@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "27,986"
 tags: ["podcast"]
 ---
 It's been a while since we have talked about the Lightning Network. A lot of internal changes have been taking place that help with reliability of the network but some changes are being rolled out that will help both the end user and LSPs (Lightning Service Providers). One of new features is splicing and it allows for much better channel management. In this episode we dive into the new splicing feature and the Phoenix wallet which now integrates splicing.

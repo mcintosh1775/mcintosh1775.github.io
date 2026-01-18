@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "43,948.71"
 tags: ["podcast"]
 ---
 This week we begin a discussion of privacy principles and how they are implemented in Bitcoin. As government overreach becomes more common and the ability to gather vast amounts of data about everyone becomes easier and more cost effective the right to financial privacy becomes ever more important. Join us as we tackle this thorny issue!

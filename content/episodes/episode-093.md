@@ -8,6 +8,7 @@ music_credits:
     link: "https://filmmusic.io/song/8342-rock-guitar-intro-07"
   - title: "Funky Life by WinnieTheMoog"
     link: "https://filmmusic.io/song/6040-funky-life"
+block_height: "774,285"
 tags: ["podcast"]
 ---
 The bitcoin halvings have a major effect on the long term price of bitcoin. Understanding what the halvings actually are and when they will occur will happen can help with planning and even predicting the future price of bitcoin.

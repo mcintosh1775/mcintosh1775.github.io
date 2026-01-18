@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "28,759"
 tags: ["podcast"]
 ---
 This week we analyze the River Lightning network usage report. There is a lot going on in lightning development and the calls for its demise are very much premature. We have plateaued for now but the next bull run will set things up for the traffic on the lightning network to overtake the Bitcoin mainchain.

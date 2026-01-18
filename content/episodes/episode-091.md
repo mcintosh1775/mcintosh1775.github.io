@@ -8,6 +8,7 @@ music_credits:
     link: "https://filmmusic.io/song/8342-rock-guitar-intro-07"
   - title: "Funky Life by WinnieTheMoog"
     link: "https://filmmusic.io/song/6040-funky-life"
+btc_price_usd: "20,880.80"
 tags: ["podcast"]
 ---
 The world is awash in debt. The US leads the world economies (we're number one!!!) in amount of debt (31.5 trillion thank you very much). Who is owed this money? What will happen when we can't pay the debt?  There are many questions when it comes global debt and the effect on the global economy.

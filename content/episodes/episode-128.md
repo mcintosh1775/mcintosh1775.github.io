@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "25,894"
 tags: ["podcast"]
 ---
 This week I had the pleasure of interviewing one of the "OGs" of Bitcoin - Jimmy Song. We discussed his new book [Fiat Ruins Everything](https://www.amazon.com/Fiat-Ruins-Everything-Financial-Bitcoin/dp/B0CFDCGZBK/ref=sr_1_1?crid=XPRIVVY1YA1W&keywords=fiat+ruins+everything&qid=1694281959&sprefix=fiat+ruis%2Caps%2C111&sr=8-1) as well as a number of other topics.

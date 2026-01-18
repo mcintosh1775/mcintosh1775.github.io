@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "26,590"
 tags: ["podcast"]
 ---
 This week we will cover some thoughts on mining, as well as news on a brand new mining unit from Bitmain. Of course a shoutout to the supporters. News and views and even a little bit of a rant.

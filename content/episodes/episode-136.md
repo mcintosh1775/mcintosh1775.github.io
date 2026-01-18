@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "27,929"
 tags: ["podcast"]
 ---
 This week it was my pleasure to interview Erik Hersman of Gridless. He and his co-workers are building bitcoin mining centers in remote parts of Africa working in conjunction with other companies to supply cheap renewable energy (hydropower) to villagers. Not only are they getting quality energy for mining Bitcoin it is improving the lives of the African villagers. A great win-win!

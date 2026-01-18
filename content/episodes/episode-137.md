@@ -9,6 +9,7 @@ music_credits:
   - title: "Ethernight Club by Kevin MacLeod"
   - title: "Website"
   - title: "We are looking forward to hearing from you!"
+btc_price_usd: "27,172"
 tags: ["podcast"]
 ---
 This week I had a great discussion with Diego Gurpegui from Argentina. He lives in Buenos Aries and is the CTO of Improvein (a fintech company). As a software professional living in a country with 138% current inflation he provides an "insiders" perspective on how people are dealing with such high inflation. We cover a wide range of topics as well as this weeks news.

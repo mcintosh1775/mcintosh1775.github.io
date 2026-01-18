@@ -8,6 +8,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+block_height: "778,464"
 tags: ["podcast"]
 ---
 This episode marks a pivotal moment in this podcast. I'm changing the name to better reflect the content that I'm producing. Over the next few weeks I'll update the website etc to reflect the new name. In addition, I cover the news of the week including a major interview that Gary Gensler (head of the SEC) gave to New York Magazine.

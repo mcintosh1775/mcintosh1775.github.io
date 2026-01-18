@@ -9,6 +9,7 @@ music_credits:
     link: "https://incompetech.filmmusic.io/song/4247-protofunk"
   - title: "Ethernight Club by Kevin MacLeod"
     link: "https://filmmusic.io/song/7612-ethernight-club"
+btc_price_usd: "28,446.25"
 tags: ["podcast"]
 ---
 What REALLY happens in the bitcoin mining process? How does a miner find a bitcoin block? What IS a hash? The bitcoin miners provide security for the blockchain and understanding how they work is a fundamental part of the understanding Bitcoin. So let's dig in ...

@@ -2,6 +2,7 @@
 title: "The Year in Review"
 date: 2022-01-10
 episode: 22
+btc_price_usd: "41,821"
 podhome_id: "cbac8d98-21db-4ea7-9767-187aa2387f4d"
 music_credits:
   - title: "Protofunk by Kevin MacLeod

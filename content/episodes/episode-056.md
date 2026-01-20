@@ -2,6 +2,7 @@
 title: "BUY THE DIP!!!"
 date: 2022-06-20
 episode: 56
+btc_price_usd: "20,599"
 podhome_id: "fec60282-fddc-4bec-bb93-1eed9c726ff7"
 music_credits:
   - title: "Protofunk by Kevin MacLeod"

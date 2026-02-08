@@ -27,6 +27,7 @@ Recommended show notes line for recording date:
 Output behavior:
 - Always creates the episode page.
 - Creates a transcript page only when a transcript is available.
+- Transcript selection prefers HTML transcripts when available, then SRT, then VTT. Caption formats are normalized to plain text for rendering.
 
 Missing data handling (RSS mode):
 - Prints warnings like `[WARN] No block height found for episode 182`.

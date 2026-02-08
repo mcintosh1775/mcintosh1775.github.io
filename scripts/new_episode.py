@@ -97,6 +97,65 @@ def normalize_html_transcript(text):
     cleaned = re.sub(r"([0-9]{2}:[0-9]{2}:[0-9]{2})([A-Za-z])", r"\1 \2", cleaned)
     return normalize_transcript_text(cleaned)
 
+def convert_caption_transcript(text):
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    lines = text.split("\n")
+    out = []
+    in_note = False
+    current_time = None
+    current_text = []
+
+    def flush():
+        nonlocal current_time, current_text
+        if current_time is None:
+            current_text = []
+            return
+        combined = " ".join(chunk.strip() for chunk in current_text if chunk.strip())
+        if combined:
+            out.append(f"[{current_time}] {combined}")
+            out.append("")
+        current_time = None
+        current_text = []
+
+    time_re = re.compile(
+        r"(\d{2}:\d{2}:\d{2})[.,]\d+\s+-->\s+\d{2}:\d{2}:\d{2}[.,]\d+"
+    )
+
+    for line in lines:
+        raw = line.strip()
+        if in_note:
+            if raw == "":
+                in_note = False
+            continue
+        if raw == "WEBVTT":
+            continue
+        if raw.startswith("NOTE"):
+            in_note = True
+            continue
+        if raw.isdigit() and current_time is None:
+            continue
+        match = time_re.match(raw)
+        if match:
+            if current_time is not None:
+                flush()
+            current_time = match.group(1)
+            continue
+        if raw == "":
+            flush()
+            continue
+        if current_time is not None:
+            current_text.append(raw)
+    flush()
+    return "\n".join(out).rstrip()
+
+
+def format_transcript_body(transcript_text, transcript_type):
+    if transcript_type == "text/html":
+        return transcript_text.strip()
+    if transcript_type in ("vtt", "srt"):
+        return convert_caption_transcript(transcript_text)
+    return transcript_text.strip()
+
 
 def strip_footer_block(text):
     marker = "podcasting 2.0 apps available at"
@@ -488,12 +547,21 @@ def parse_rss_item(item, ns):
     transcript_url = ""
     transcript_type = ""
     for element in transcript_elements:
+        rel = element.get("rel")
         content_type = element.get("type")
         url = element.get("url")
-        if content_type in ("application/srt", "text/srt") and url:
+        if rel == "transcript" and content_type == "text/html" and url:
             transcript_url = url
-            transcript_type = "srt"
+            transcript_type = "text/html"
             break
+    if not transcript_url:
+        for element in transcript_elements:
+            content_type = element.get("type")
+            url = element.get("url")
+            if content_type in ("application/srt", "text/srt") and url:
+                transcript_url = url
+                transcript_type = "srt"
+                break
     if not transcript_url:
         for element in transcript_elements:
             content_type = element.get("type")
@@ -501,15 +569,6 @@ def parse_rss_item(item, ns):
             if content_type in ("text/vtt", "application/vtt") and url:
                 transcript_url = url
                 transcript_type = "vtt"
-                break
-    if not transcript_url:
-        for element in transcript_elements:
-            rel = element.get("rel")
-            content_type = element.get("type")
-            url = element.get("url")
-            if rel == "transcript" and content_type == "text/html" and url:
-                transcript_url = url
-                transcript_type = "text/html"
                 break
     if not transcript_url:
         pass
@@ -569,7 +628,9 @@ def process_rss_episode(root, namespaces, episodes_dir, args, warn, requested_ep
             else:
                 transcript_text = normalize_transcript_text(transcript_raw)
             if transcript_text:
-                transcript = f"```text\n{transcript_text}\n```"
+                transcript = format_transcript_body(
+                    transcript_text, rss_data["transcript_type"]
+                )
             else:
                 warn(f"[WARN] Transcript content is empty for episode {episode_number}")
                 transcript_warned = True

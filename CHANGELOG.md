@@ -2,6 +2,7 @@
 
 ## v2.2 (2026-02-08)
 - Normalized transcript formatting for episodes 241-243 to render as plain text instead of raw WebVTT.
+- Updated transcript ingestion to prefer HTML transcripts and convert caption formats to plain text.
 
 ## v2.1 (2026-01-10)
 - Simplified the episode generator to RSS-only mode.

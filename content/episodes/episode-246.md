@@ -7,9 +7,8 @@ btc_price_usd: "68,500"
 btc_price_eur: "59,100"
 block_height: "939,170"
 music_credits:
-  - title: "[Nope](https://wavlake.com/nope)"
-    link: "https://wavlake.com/nope"
   - title: "Tick Tock Next Block"
+    link: "https://wavlake.com/nope"
 tags: ["podcast"]
 ---
 McIntosh and Kenshin check in and talk about navigating the bear market with a clear head—how to think about volatility, keep perspective, and stay focused on stacking and building instead of stressing over day-to-day price swings. They also touch on how Bitcoin has been behaving in broader markets and why that doesn’t necessarily change the long-term thesis.
